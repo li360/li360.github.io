@@ -21,7 +21,7 @@
 <meta property="og:url" content="http://blog.lilei360.cn/2016/08/24/babun-配置备忘/index.html">
 <meta property="og:site_name" content="壮士凌云">
 <meta property="og:description" content="babun 是一个把 cygwin、 zsh、 oh-my-zsh 等打包在一起，可以自动升级维护的、可以运行在 windows 上的 linux 命令行工具。">
-<meta property="og:updated_time" content="2016-08-24T02:30:54.197Z">
+<meta property="og:updated_time" content="2016-08-24T03:42:17.279Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="babun 配置备忘">
 <meta name="twitter:description" content="babun 是一个把 cygwin、 zsh、 oh-my-zsh 等打包在一起，可以自动升级维护的、可以运行在 windows 上的 linux 命令行工具。">
@@ -138,13 +138,13 @@
                 <div class="tips-box hide">
                     <div class="tips-arrow"></div>
                     <ul class="tips-inner">
-                        <li>菜單</li>
-                        <li>標籤</li>
+                        <li>菜单</li>
+                        <li>标签</li>
                         
-                        <li>友情鏈接</li>
+                        <li>友情链接</li>
                         
                         
-                        <li>關於我</li>
+                        <li>关于我</li>
                         
                     </ul>
                 </div>
@@ -258,7 +258,7 @@
             </nav>
         </header>                
     </div>
-    <link class="menu-list" tags="標籤" friends="友情鏈接" about="關於我"/>
+    <link class="menu-list" tags="标签" friends="友情链接" about="关于我"/>
 </nav>
       <div class="body-wrap"><article id="post-babun-配置备忘" class="article article-type-post" itemscope itemprop="blogPost">
   
@@ -303,12 +303,12 @@
         <p>　　babun 是一个把 cygwin、 zsh、 oh-my-zsh 等打包在一起，可以自动升级维护的、可以运行在 windows 上的 linux 命令行工具。</p>
 <h2 id="问题解决备忘"><a href="#问题解决备忘" class="headerlink" title="问题解决备忘"></a>问题解决备忘</h2><h3 id="windows-命令乱码"><a href="#windows-命令乱码" class="headerlink" title="windows 命令乱码"></a>windows 命令乱码</h3><p>例如 ipconfig 命令乱码，可以设置别名，并添加参数<br><code>Add | iconv -f GBK -t UTF8 after the CMD command.</code><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">alias</span> ifconfig=<span class="string">'ipconfig | iconv -f GBK -t UTF8'</span></div></pre></td></tr></table></figure></p>
 <h3 id="没有-telnet-命令"><a href="#没有-telnet-命令" class="headerlink" title="没有 telnet 命令"></a>没有 telnet 命令</h3><p>直接寻找 telnet 找不到，需要这个包 inetutils：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">pact install inetutils</div></pre></td></tr></table></figure></p>
-<p>将Babun加入到ConEmu</p>
-<p>Update to the latest ConEmu<br>In ConEmu</p>
+<h2 id="个人定制"><a href="#个人定制" class="headerlink" title="个人定制"></a>个人定制</h2><h3 id="喜欢的插件"><a href="#喜欢的插件" class="headerlink" title="喜欢的插件"></a>喜欢的插件</h3><p>zsh-syntax-highlighting</p>
+<p>cd ~/.oh-my-zsh/custom/plugins<br>git clone git://github.com/zsh-users/zsh-syntax-highlighting.git<br>plugins=( [plugins…] zsh-syntax-highlighting)<br>source ~/.zshrc or src</p>
+<h3 id="将-Babun-加入到-ConEmu"><a href="#将-Babun-加入到-ConEmu" class="headerlink" title="将 Babun 加入到 ConEmu"></a>将 Babun 加入到 ConEmu</h3><p>Update to the latest ConEmu<br>In ConEmu</p>
 <p>Go to Settings&gt;Startup&gt;Tasks<br>Create a new task<br>Task parameters /icon “%userprofile%.babun\cygwin\bin\mintty.exe” /dir “%userprofile%”<br>Commands %userprofile%.babun\cygwin\bin\mintty.exe /bin/env CHERE_INVOKING=1 /bin/zsh.exe</p>
 <p>zsh-syntax-highlighting</p>
 <p>cd ~/.oh-my-zsh/custom/plugins<br>git clone git://github.com/zsh-users/zsh-syntax-highlighting.git<br>plugins=( [plugins…] zsh-syntax-highlighting)<br>source ~/.zshrc or src</p>
-<p>Add | iconv -f GBK -t UTF8 after the CMD command.</p>
 
       
     </div>
@@ -317,17 +317,17 @@
   
     
     <div class="copyright">
-        <p><span>本文標題:</span><a href="/2016/08/24/babun-配置备忘/">babun 配置备忘</a></p>
-        <p><span>文章作者:</span><a href="/" title="回到主頁">猫看天</a></p>
-        <p><span>發布時間:</span>2016-08-24, 11:02:35</p>
-        <p><span>最後更新:</span>2016-08-24, 11:30:54</p>
+        <p><span>本文标题:</span><a href="/2016/08/24/babun-配置备忘/">babun 配置备忘</a></p>
+        <p><span>文章作者:</span><a href="/" title="回到主页">猫看天</a></p>
+        <p><span>发布时间:</span>2016-08-24, 11:02:35</p>
+        <p><span>最后更新:</span>2016-08-24, 12:42:17</p>
         <p>
-            <span>原始鏈接:</span><a class="post-url" href="/2016/08/24/babun-配置备忘/" title="babun 配置备忘">http://blog.lilei360.cn/2016/08/24/babun-配置备忘/</a>
-            <span class="copy-path" data-clipboard-text="原文: http://blog.lilei360.cn/2016/08/24/babun-配置备忘/　　作者: 猫看天" title="點擊複製文章鏈接"><i class="fa fa-clipboard"></i></span>
+            <span>原始链接:</span><a class="post-url" href="/2016/08/24/babun-配置备忘/" title="babun 配置备忘">http://blog.lilei360.cn/2016/08/24/babun-配置备忘/</a>
+            <span class="copy-path" data-clipboard-text="原文: http://blog.lilei360.cn/2016/08/24/babun-配置备忘/　　作者: 猫看天" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
             <script> var clipboard = new Clipboard('.copy-path'); </script>
         </p>
         <p>
-            <span>許可協議:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="CC BY-NC-SA 4.0 International" target = "_blank">"姓名標示-非商業性-相同方式分享 4.0 國際"</a> 轉載請保留原文鏈接及作者。
+            <span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="CC BY-NC-SA 4.0 International" target = "_blank">"署名-非商用-相同方式共享 4.0"</a> 转载请保留原文链接及作者。
         </p>
     </div>
 
@@ -348,9 +348,9 @@
 </article>
 
     <div id="toc" class="toc-article">
-        <strong class="toc-title">文章目錄</strong>
+        <strong class="toc-title">文章目录</strong>
         
-            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#问题解决备忘"><span class="toc-number">1.</span> <span class="toc-text">问题解决备忘</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#windows-命令乱码"><span class="toc-number">1.1.</span> <span class="toc-text">windows 命令乱码</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#没有-telnet-命令"><span class="toc-number">1.2.</span> <span class="toc-text">没有 telnet 命令</span></a></li></ol></li></ol>
+            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#问题解决备忘"><span class="toc-number">1.</span> <span class="toc-text">问题解决备忘</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#windows-命令乱码"><span class="toc-number">1.1.</span> <span class="toc-text">windows 命令乱码</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#没有-telnet-命令"><span class="toc-number">1.2.</span> <span class="toc-text">没有 telnet 命令</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#个人定制"><span class="toc-number">2.</span> <span class="toc-text">个人定制</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#喜欢的插件"><span class="toc-number">2.1.</span> <span class="toc-text">喜欢的插件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#将-Babun-加入到-ConEmu"><span class="toc-number">2.2.</span> <span class="toc-text">将 Babun 加入到 ConEmu</span></a></li></ol></li></ol>
         
     </div>
     <style>
@@ -364,10 +364,10 @@
         }
     </style>
 
-    <input type="button" id="tocButton" value="隱藏目錄"  title="點擊按鈕隱藏或者顯示文章目錄">
+    <input type="button" id="tocButton" value="隐藏目录"  title="点击按钮隐藏或者显示文章目录">
 
     <script>
-        yiliaConfig.toc = ["隱藏目錄", "顯示目錄", !!"false"];
+        yiliaConfig.toc = ["隐藏目录", "显示目录", !!"false"];
     </script>
 
 
@@ -406,7 +406,7 @@
 
     <div class="scroll" id="post-nav-button">
         
-            <a href="/" title="回到主頁"><i class="fa fa-home"></i></a>
+            <a href="/" title="回到主页"><i class="fa fa-home"></i></a>
         
 
         <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
@@ -435,14 +435,14 @@
                 2016 猫看天
             </div>
             <div class="footer-right">
-                <a href="http://hexo.io/" target="_blank" title="快速、簡潔且高效的博客框架">Hexo</a>  Theme <a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank" title="簡而不減 Hexo 雙欄博客主題  v3.5">Yelee</a> by MOxFIVE <i class="fa fa-heart animated infinite pulse"></i>
+                <a href="http://hexo.io/" target="_blank" title="快速、简洁且高效的博客框架">Hexo</a>  Theme <a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank" title="简而不减 Hexo 双栏博客主题  v3.5">Yelee</a> by MOxFIVE <i class="fa fa-heart animated infinite pulse"></i>
             </div>
         </div>
         
             <div class="visit">
                 
                     <span id="busuanzi_container_site_pv" style='display:none'>
-                        <span id="site-visit" title="本站到訪數"><i class="fa fa-user" aria-hidden="true"></i><span id="busuanzi_value_site_uv"></span>
+                        <span id="site-visit" title="本站到访数"><i class="fa fa-user" aria-hidden="true"></i><span id="busuanzi_value_site_uv"></span>
                         </span>
                     </span>
                 
@@ -451,7 +451,7 @@
                 
                 
                     <span id="busuanzi_container_page_pv" style='display:none'>
-                        <span id="page-visit"  title="本頁閱讀量"><i class="fa fa-eye animated infinite pulse" aria-hidden="true"></i><span id="busuanzi_value_page_pv"></span>
+                        <span id="page-visit"  title="本页阅读量"><i class="fa fa-eye animated infinite pulse" aria-hidden="true"></i><span id="busuanzi_value_page_pv"></span>
                         </span>
                     </span>
                 
@@ -484,9 +484,9 @@
 
 
 <div class="scroll" id="scroll">
-    <a href="#" title="返回頂部"><i class="fa fa-arrow-up"></i></a>
-    <a href="#comments" onclick="load$hide();" title="查看評論"><i class="fa fa-comments-o"></i></a>
-    <a href="#footer" title="轉到底部"><i class="fa fa-arrow-down"></i></a>
+    <a href="#" title="返回顶部"><i class="fa fa-arrow-up"></i></a>
+    <a href="#comments" onclick="load$hide();" title="查看评论"><i class="fa fa-comments-o"></i></a>
+    <a href="#footer" title="转到底部"><i class="fa fa-arrow-down"></i></a>
 </div>
 <script>
     // Open in New Window
