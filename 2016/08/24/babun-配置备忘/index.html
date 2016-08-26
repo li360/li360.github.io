@@ -22,7 +22,7 @@
 <meta property="og:site_name" content="壮士凌云">
 <meta property="og:description" content="babun 是一个把 cygwin、 zsh、 oh-my-zsh 等打包在一起，可以自动升级维护的、可以运行在 windows 上的 linux 命令行工具。">
 <meta property="og:image" content="http://blog.lilei360.cn/2016/08/24/babun-配置备忘/babun_ConEmu.png">
-<meta property="og:updated_time" content="2016-08-25T01:27:19.748Z">
+<meta property="og:updated_time" content="2016-08-25T14:27:55.288Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="babun 配置备忘">
 <meta name="twitter:description" content="babun 是一个把 cygwin、 zsh、 oh-my-zsh 等打包在一起，可以自动升级维护的、可以运行在 windows 上的 linux 命令行工具。">
@@ -313,6 +313,9 @@
 <h3 id="Windows-资源管理器上下文菜单集成管理"><a href="#Windows-资源管理器上下文菜单集成管理" class="headerlink" title="Windows 资源管理器上下文菜单集成管理"></a>Windows 资源管理器上下文菜单集成管理</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">babun shell-here init  <span class="comment"># 集成</span></div><div class="line">babun shell-here remove  <span class="comment"># 卸载</span></div></pre></td></tr></table></figure>
 <h3 id="启动时的检查"><a href="#启动时的检查" class="headerlink" title="启动时的检查"></a>启动时的检查</h3><p>有时比较耗时间，你可以关闭，打开 <code>.babunrc</code> 文件<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># Uncomment this to disable daily auto-update &amp; proxy checks on startup (not recommended!)</span></div><div class="line"><span class="built_in">export</span> DISABLE_CHECK_ON_STARTUP=<span class="string">"true"</span>  <span class="comment"># 去除行首的注释符号即可</span></div></pre></td></tr></table></figure></p>
 <p>然后你可以手动执行检查 <code>babun check</code> 和更新 <code>babun update</code></p>
+<h3 id="安装-Python3"><a href="#安装-Python3" class="headerlink" title="安装 Python3"></a>安装 Python3</h3><p>当前 babun 自带为 python2.x 可以安装 python3<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">pact install python3</div></pre></td></tr></table></figure></p>
+<p>安装 pip<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">wget https://bootstrap.pypa.io/get-pip.py -O - | python3</div></pre></td></tr></table></figure></p>
+<p>安装 django<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">pip3 install django</div></pre></td></tr></table></figure></p>
 
       
     </div>
@@ -324,7 +327,7 @@
         <p><span>本文标题:</span><a href="/2016/08/24/babun-配置备忘/">babun 配置备忘</a></p>
         <p><span>文章作者:</span><a href="/" title="回到主页">猫看天</a></p>
         <p><span>发布时间:</span>2016-08-24, 11:02:35</p>
-        <p><span>最后更新:</span>2016-08-25, 10:27:19</p>
+        <p><span>最后更新:</span>2016-08-25, 23:27:55</p>
         <p>
             <span>原始链接:</span><a class="post-url" href="/2016/08/24/babun-配置备忘/" title="babun 配置备忘">http://blog.lilei360.cn/2016/08/24/babun-配置备忘/</a>
             <span class="copy-path" data-clipboard-text="原文: http://blog.lilei360.cn/2016/08/24/babun-配置备忘/　　作者: 猫看天" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
@@ -360,7 +363,7 @@
     <div id="toc" class="toc-article">
         <strong class="toc-title">文章目录</strong>
         
-            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#问题备忘"><span class="toc-number">1.</span> <span class="toc-text">问题备忘</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#windows-命令乱码"><span class="toc-number">1.1.</span> <span class="toc-text">windows 命令乱码</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#没有-telnet-命令"><span class="toc-number">1.2.</span> <span class="toc-text">没有 telnet 命令</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#定制备忘"><span class="toc-number">2.</span> <span class="toc-text">定制备忘</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#喜欢的插件"><span class="toc-number">2.1.</span> <span class="toc-text">喜欢的插件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#将-Babun-加入到-ConEmu"><span class="toc-number">2.2.</span> <span class="toc-text">将 Babun 加入到 ConEmu</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Windows-资源管理器上下文菜单集成管理"><span class="toc-number">2.3.</span> <span class="toc-text">Windows 资源管理器上下文菜单集成管理</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#启动时的检查"><span class="toc-number">2.4.</span> <span class="toc-text">启动时的检查</span></a></li></ol></li></ol>
+            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#问题备忘"><span class="toc-number">1.</span> <span class="toc-text">问题备忘</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#windows-命令乱码"><span class="toc-number">1.1.</span> <span class="toc-text">windows 命令乱码</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#没有-telnet-命令"><span class="toc-number">1.2.</span> <span class="toc-text">没有 telnet 命令</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#定制备忘"><span class="toc-number">2.</span> <span class="toc-text">定制备忘</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#喜欢的插件"><span class="toc-number">2.1.</span> <span class="toc-text">喜欢的插件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#将-Babun-加入到-ConEmu"><span class="toc-number">2.2.</span> <span class="toc-text">将 Babun 加入到 ConEmu</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Windows-资源管理器上下文菜单集成管理"><span class="toc-number">2.3.</span> <span class="toc-text">Windows 资源管理器上下文菜单集成管理</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#启动时的检查"><span class="toc-number">2.4.</span> <span class="toc-text">启动时的检查</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#安装-Python3"><span class="toc-number">2.5.</span> <span class="toc-text">安装 Python3</span></a></li></ol></li></ol>
         
     </div>
     <style>
