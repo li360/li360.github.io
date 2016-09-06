@@ -433,7 +433,7 @@
         
     </div>
 
-    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2016/08/24/python-web-学习——测试安装-Django/">python web 学习——测试安装 Django</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/08/24/python-web-学习——环境/">python web 学习——环境</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/08/24/babun-配置备忘/">babun 配置备忘</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/08/23/如何禁用-Outlook-日历的通知邮件/">如何禁用 Outlook 日历的通知邮件</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/08/23/hello-world/">Hexo 的 Hello World ！</a></li></ul>
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2016/09/06/python-web-学习-Django的单元测试/">python-web-学习-Django的单元测试</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/08/24/python-web-学习——测试安装-Django/">python web 学习——测试安装 Django</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/08/24/python-web-学习——环境/">python web 学习——环境</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/08/24/babun-配置备忘/">babun 配置备忘</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/08/23/如何禁用-Outlook-日历的通知邮件/">如何禁用 Outlook 日历的通知邮件</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/08/23/hello-world/">Hexo 的 Hello World ！</a></li></ul>
 
 
 
@@ -487,7 +487,7 @@
                 $("body").css({"background-color": bgColorList[bgColor], "background-size": "cover"});
             }
             else {
-                var backgroundnum = 5;
+                var backgroundnum = :5;
                 var backgroundimg = "url(/background/bg-x.jpg)".replace(/x/gi, Math.ceil(Math.random() * backgroundnum));
                 $("body").css({"background": backgroundimg, "background-attachment": "fixed", "background-size": "cover"});
             }
@@ -496,6 +496,27 @@
 
 
 
+
+
+    <script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
+</script>
+
+<script src="//cdn.bootcss.com/mathjax/2.6.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 
 
 <div class="scroll" id="scroll">
