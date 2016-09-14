@@ -21,7 +21,7 @@
 <meta property="og:url" content="http://blog.lilei360.cn/2016/09/14/Ubuntu-server-14-04-安装-Apache2/index.html">
 <meta property="og:site_name" content="壮士凌云">
 <meta property="og:description" content="Ubuntu server 14.04 LTS 安装 Apache2 并配置 HTTP 服务，使用 80/TCP。">
-<meta property="og:updated_time" content="2016-09-14T05:44:29.494Z">
+<meta property="og:updated_time" content="2016-09-14T05:45:59.659Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Ubuntu server 14.04 安装 Apache2">
 <meta name="twitter:description" content="Ubuntu server 14.04 LTS 安装 Apache2 并配置 HTTP 服务，使用 80/TCP。">
@@ -309,7 +309,8 @@
 <p>更改第二行：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># line 2: add file name that it can access only with directory's name</span></div><div class="line">DirectoryIndex index.html index.htm</div></pre></td></tr></table></figure></p>
 <h3 id="配置-apache2-conf"><a href="#配置-apache2-conf" class="headerlink" title="配置 apache2.conf"></a>配置 <code>apache2.conf</code></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">liam@bogon:~$ sudo vi /etc/apache2/apache2.conf</div></pre></td></tr></table></figure>
 <p>更改第70行,替换成你的域名：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># line 70: add server name</span></div><div class="line">ServerName www.myserver.sample</div></pre></td></tr></table></figure></p>
-<h3 id="配置-000-default-conf"><a href="#配置-000-default-conf" class="headerlink" title="配置 000-default.conf"></a>配置 <code>000-default.conf</code></h3><p>liam@bogon:~$ sudo vi /etc/apache2/sites-enabled/000-default.conf<br>更改第11行：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># line 11: change admin email address</span></div><div class="line">ServerAdmin webmaster@myserver.sample</div></pre></td></tr></table></figure></p>
+<h3 id="配置-000-default-conf"><a href="#配置-000-default-conf" class="headerlink" title="配置 000-default.conf"></a>配置 <code>000-default.conf</code></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">liam@bogon:~$ sudo vi /etc/apache2/sites-enabled/000-default.conf</div></pre></td></tr></table></figure>
+<p>更改第11行：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># line 11: change admin email address</span></div><div class="line">ServerAdmin webmaster@myserver.sample</div></pre></td></tr></table></figure></p>
 <h2 id="重启-apache2-服务"><a href="#重启-apache2-服务" class="headerlink" title="重启 apache2 服务"></a>重启 apache2 服务</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">liam@bogon:~$ sudo /etc/init.d/apache2 restart</div><div class="line">* Restarting web server apache2</div><div class="line"> ...done.</div></pre></td></tr></table></figure>
 <h2 id="验证-apache2"><a href="#验证-apache2" class="headerlink" title="验证 apache2"></a>验证 apache2</h2><p>在浏览器中输入 <code>http://(your server&#39;s hostname or IP address)/</code> , 你应该看到 apache2 的默认页面。</p>
 
@@ -323,7 +324,7 @@
         <p><span>本文标题:</span><a href="/2016/09/14/Ubuntu-server-14-04-安装-Apache2/">Ubuntu server 14.04 安装 Apache2</a></p>
         <p><span>文章作者:</span><a href="/" title="回到主页">猫看天</a></p>
         <p><span>发布时间:</span>2016-09-14, 12:54:37</p>
-        <p><span>最后更新:</span>2016-09-14, 14:44:29</p>
+        <p><span>最后更新:</span>2016-09-14, 14:45:59</p>
         <p>
             <span>原始链接:</span><a class="post-url" href="/2016/09/14/Ubuntu-server-14-04-安装-Apache2/" title="Ubuntu server 14.04 安装 Apache2">http://blog.lilei360.cn/2016/09/14/Ubuntu-server-14-04-安装-Apache2/</a>
             <span class="copy-path" data-clipboard-text="原文: http://blog.lilei360.cn/2016/09/14/Ubuntu-server-14-04-安装-Apache2/　　作者: 猫看天" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
