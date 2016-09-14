@@ -15,16 +15,16 @@
 
 
 
-<meta name="description" content="学习笔记一篇。使用 python 做 web 开发，Django 的单元测试。">
+<meta name="description" content="Ubuntu server 14.04 LTS 安装 Apache2 并配置 HTTP 服务，使用 80/TCP。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="python-web-学习-Django的单元测试">
-<meta property="og:url" content="http://blog.lilei360.cn/2016/09/06/python-web-学习-Django的单元测试/index.html">
+<meta property="og:title" content="Ubuntu server 14.04 安装 Apache2">
+<meta property="og:url" content="http://blog.lilei360.cn/2016/09/14/Ubuntu-server-14-04-安装-Apache2/index.html">
 <meta property="og:site_name" content="壮士凌云">
-<meta property="og:description" content="学习笔记一篇。使用 python 做 web 开发，Django 的单元测试。">
-<meta property="og:updated_time" content="2016-09-06T09:53:27.749Z">
+<meta property="og:description" content="Ubuntu server 14.04 LTS 安装 Apache2 并配置 HTTP 服务，使用 80/TCP。">
+<meta property="og:updated_time" content="2016-09-14T05:35:56.792Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="python-web-学习-Django的单元测试">
-<meta name="twitter:description" content="学习笔记一篇。使用 python 做 web 开发，Django 的单元测试。">
+<meta name="twitter:title" content="Ubuntu server 14.04 安装 Apache2">
+<meta name="twitter:description" content="Ubuntu server 14.04 LTS 安装 Apache2 并配置 HTTP 服务，使用 80/TCP。">
 
 <link rel="apple-touch-icon" href= "/apple-touch-icon.png">
 
@@ -56,7 +56,7 @@
 <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
 
-<title>python-web-学习-Django的单元测试 | 壮士凌云</title>
+<title>Ubuntu server 14.04 安装 Apache2 | 壮士凌云</title>
 
 <script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
 <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
@@ -260,11 +260,11 @@
     </div>
     <link class="menu-list" tags="标签" friends="友情链接" about="关于我"/>
 </nav>
-      <div class="body-wrap"><article id="post-python-web-学习-Django的单元测试" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-Ubuntu-server-14-04-安装-Apache2" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2016/09/06/python-web-学习-Django的单元测试/" class="article-date">
-      <time datetime="2016-09-06T08:54:31.000Z" itemprop="datePublished">2016-09-06</time>
+      <a href="/2016/09/14/Ubuntu-server-14-04-安装-Apache2/" class="article-date">
+      <time datetime="2016-09-14T03:54:37.000Z" itemprop="datePublished">2016-09-14</time>
 </a>
 
 
@@ -279,7 +279,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      python-web-学习-Django的单元测试
+      Ubuntu server 14.04 安装 Apache2
     </h1>
   
 
@@ -290,7 +290,7 @@
 
         
     <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/django/">django</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/python/">python</a></li></ul>
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/apache2/">apache2</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ubuntu/">ubuntu</a></li></ul>
     </div>
 
         <div class="clearfix"></div>
@@ -300,22 +300,18 @@
     <div class="article-entry" itemprop="articleBody">
       
           
-        <p>[学习笔记] 使用 python 做 web 开发， Django 的单元测试。</p>
-<h2 id="创建-Django-的单元测试"><a href="#创建-Django-的单元测试" class="headerlink" title="创建 Django 的单元测试"></a>创建 Django 的单元测试</h2><ol>
-<li>创建一个 Django 应用<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ python3 manage.py startapp &lt;应用名称&gt;</div></pre></td></tr></table></figure>
-</li>
-</ol>
-<p><code>&lt;应用名称&gt;</code> 目录中的 <code>tests.py</code> 即单元测试代码</p>
-<ol>
-<li>运行测试<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ python3 manage.py <span class="built_in">test</span></div></pre></td></tr></table></figure>
-</li>
-</ol>
-<p>将执行 tests.py 中的测试代码</p>
-<h2 id="测试-Django-中的-MVC-URL-和视图函数"><a href="#测试-Django-中的-MVC-URL-和视图函数" class="headerlink" title="测试 Django 中的 MVC URL 和视图函数"></a>测试 Django 中的 MVC URL 和视图函数</h2><ol>
-<li>测试 views.py 中的 home_page<pre><code class="python">
-</code></pre>
-2.</li>
-</ol>
+        <p>　　我们在安装 Ubuntu server 14.04 LTS 时已经选择了 LAMP server 。此时 Ubuntu 就已经安装了 Apache2。 如果安装 Ubuntu 的时候没有选择 LAMP ，这里我们可以手动安装。</p>
+<p>　　安装 Apache2 并配置 HTTP Server 为 80/TCP.</p>
+<h2 id="手动安装-Apache2"><a href="#手动安装-Apache2" class="headerlink" title="手动安装 Apache2."></a>手动安装 Apache2.</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">liam@bogon:~$ sudo apt-get -y install apache2</div></pre></td></tr></table></figure>
+<h2 id="配置-Apache2"><a href="#配置-Apache2" class="headerlink" title="配置 Apache2."></a>配置 Apache2.</h2><h3 id="配置-security-conf-文件"><a href="#配置-security-conf-文件" class="headerlink" title="配置 security.conf 文件"></a>配置 <code>security.conf</code> 文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">liam@bogon:~$ sudo vim /etc/apache2/conf-enabled/security.conf</div></pre></td></tr></table></figure>
+<p>在文件 <code>security.conf</code> 中找到以下行，进行更改：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># line 26: change</span></div><div class="line">ServerTokens Prod</div><div class="line"><span class="comment"># line 37: change</span></div><div class="line">ServerSignature Off</div></pre></td></tr></table></figure></p>
+<h3 id="配置-dir-conf-文件"><a href="#配置-dir-conf-文件" class="headerlink" title="配置 dir.conf 文件"></a>配置 <code>dir.conf</code> 文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">liam@bogon:~$ sudo vi /etc/apache2/mods-enabled/dir.conf</div></pre></td></tr></table></figure>
+<p>更改第二行：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># line 2: add file name that it can access only with directory's name</span></div><div class="line">DirectoryIndex index.html index.htm</div></pre></td></tr></table></figure></p>
+<h3 id="配置-apache2-conf"><a href="#配置-apache2-conf" class="headerlink" title="配置 apache2.conf"></a>配置 <code>apache2.conf</code></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">liam@bogon:~$ sudo vi /etc/apache2/apache2.conf</div></pre></td></tr></table></figure>
+<p>更改第70行,替换成你的域名：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># line 70: add server name</span></div><div class="line">ServerName www.myserver.sample</div></pre></td></tr></table></figure></p>
+<h3 id="配置-000-default-conf"><a href="#配置-000-default-conf" class="headerlink" title="配置 000-default.conf"></a>配置 <code>000-default.conf</code></h3><p>liam@bogon:~$ sudo vi /etc/apache2/sites-enabled/000-default.conf<br>更改第11行：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># line 11: change admin email address</span></div><div class="line">ServerAdmin webmaster@srv.world</div></pre></td></tr></table></figure></p>
+<h2 id="重启-apache2-服务"><a href="#重启-apache2-服务" class="headerlink" title="重启 apache2 服务"></a>重启 apache2 服务</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">liam@bogon:~$ sudo /etc/init.d/apache2 restart</div><div class="line">* Restarting web server apache2</div><div class="line"> ...done.</div></pre></td></tr></table></figure>
+<h2 id="验证-apache2"><a href="#验证-apache2" class="headerlink" title="验证 apache2"></a>验证 apache2</h2><p>在浏览器中输入 “<a href="http://(your" target="_blank" rel="external">http://(your</a> server’s hostname or IP address)/“ 你应该看到 apache2 的默认页面。</p>
 
       
     </div>
@@ -324,13 +320,13 @@
   
     
     <div class="copyright">
-        <p><span>本文标题:</span><a href="/2016/09/06/python-web-学习-Django的单元测试/">python-web-学习-Django的单元测试</a></p>
+        <p><span>本文标题:</span><a href="/2016/09/14/Ubuntu-server-14-04-安装-Apache2/">Ubuntu server 14.04 安装 Apache2</a></p>
         <p><span>文章作者:</span><a href="/" title="回到主页">猫看天</a></p>
-        <p><span>发布时间:</span>2016-09-06, 17:54:31</p>
-        <p><span>最后更新:</span>2016-09-06, 18:53:27</p>
+        <p><span>发布时间:</span>2016-09-14, 12:54:37</p>
+        <p><span>最后更新:</span>2016-09-14, 14:35:56</p>
         <p>
-            <span>原始链接:</span><a class="post-url" href="/2016/09/06/python-web-学习-Django的单元测试/" title="python-web-学习-Django的单元测试">http://blog.lilei360.cn/2016/09/06/python-web-学习-Django的单元测试/</a>
-            <span class="copy-path" data-clipboard-text="原文: http://blog.lilei360.cn/2016/09/06/python-web-学习-Django的单元测试/　　作者: 猫看天" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
+            <span>原始链接:</span><a class="post-url" href="/2016/09/14/Ubuntu-server-14-04-安装-Apache2/" title="Ubuntu server 14.04 安装 Apache2">http://blog.lilei360.cn/2016/09/14/Ubuntu-server-14-04-安装-Apache2/</a>
+            <span class="copy-path" data-clipboard-text="原文: http://blog.lilei360.cn/2016/09/14/Ubuntu-server-14-04-安装-Apache2/　　作者: 猫看天" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
             <script> var clipboard = new Clipboard('.copy-path'); </script>
         </p>
         <p>
@@ -342,16 +338,10 @@
 
     <nav id="article-nav">
         
-            <div id="article-nav-newer" class="article-nav-title">
-                <a href="/2016/09/14/Ubuntu-server-14-04-安装-Apache2/">
-                    Ubuntu server 14.04 安装 Apache2
-                </a>
-            </div>
-        
         
             <div id="article-nav-older" class="article-nav-title">
-                <a href="/2016/08/24/python-web-学习——测试安装-Django/">
-                    python web 学习——测试安装 Django
+                <a href="/2016/09/06/python-web-学习-Django的单元测试/">
+                    python-web-学习-Django的单元测试
                 </a>
             </div>
         
@@ -363,7 +353,7 @@
     <div id="toc" class="toc-article">
         <strong class="toc-title">文章目录</strong>
         
-            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#创建-Django-的单元测试"><span class="toc-number">1.</span> <span class="toc-text">创建 Django 的单元测试</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#测试-Django-中的-MVC-URL-和视图函数"><span class="toc-number">2.</span> <span class="toc-text">测试 Django 中的 MVC URL 和视图函数</span></a></li></ol>
+            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#手动安装-Apache2"><span class="toc-number">1.</span> <span class="toc-text">手动安装 Apache2.</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#配置-Apache2"><span class="toc-number">2.</span> <span class="toc-text">配置 Apache2.</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#配置-security-conf-文件"><span class="toc-number">2.1.</span> <span class="toc-text">配置 security.conf 文件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#配置-dir-conf-文件"><span class="toc-number">2.2.</span> <span class="toc-text">配置 dir.conf 文件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#配置-apache2-conf"><span class="toc-number">2.3.</span> <span class="toc-text">配置 apache2.conf</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#配置-000-default-conf"><span class="toc-number">2.4.</span> <span class="toc-text">配置 000-default.conf</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#重启-apache2-服务"><span class="toc-number">3.</span> <span class="toc-text">重启 apache2 服务</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#验证-apache2"><span class="toc-number">4.</span> <span class="toc-text">验证 apache2</span></a></li></ol>
         
     </div>
     <style>
@@ -399,7 +389,7 @@
         </div>
         <script>
             window._bd_share_config={
-                "common":{"bdSnsKey":{},"bdText":"python-web-学习-Django的单元测试　| 壮士凌云　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+                "common":{"bdSnsKey":{},"bdText":"Ubuntu server 14.04 安装 Apache2　| 壮士凌云　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
         </script>
     
 
@@ -415,7 +405,7 @@
     
       <div class="duoshuo" id="comments">
     <div id="comment-box" ></div>
-    <div class="ds-thread" id="ds-thread" data-thread-key="2016/09/06/python-web-学习-Django的单元测试/" data-title="python-web-学习-Django的单元测试" data-url="http://blog.lilei360.cn/2016/09/06/python-web-学习-Django的单元测试/"></div>
+    <div class="ds-thread" id="ds-thread" data-thread-key="2016/09/14/Ubuntu-server-14-04-安装-Apache2/" data-title="Ubuntu server 14.04 安装 Apache2" data-url="http://blog.lilei360.cn/2016/09/14/Ubuntu-server-14-04-安装-Apache2/"></div>
     <script>
         var duoshuoQuery = {short_name:"lilei360"};
         var loadComment = function(){
@@ -438,15 +428,13 @@
 
     <div class="scroll" id="post-nav-button">
         
-            <a href="/2016/09/14/Ubuntu-server-14-04-安装-Apache2/" title="上一篇: Ubuntu server 14.04 安装 Apache2">
-                <i class="fa fa-angle-left"></i>
-            </a>
+            <a href="/" title="回到主页"><i class="fa fa-home"></i></a>
         
 
         <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
 
         
-            <a href="/2016/08/24/python-web-学习——测试安装-Django/" title="下一篇: python web 学习——测试安装 Django">
+            <a href="/2016/09/06/python-web-学习-Django的单元测试/" title="下一篇: python-web-学习-Django的单元测试">
                 <i class="fa fa-angle-right"></i>
             </a>
         
