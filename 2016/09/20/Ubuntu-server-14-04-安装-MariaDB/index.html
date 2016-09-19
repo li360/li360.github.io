@@ -15,12 +15,16 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="壮士凌云">
-<meta property="og:url" content="http://blog.lilei360.cn/tags/django/index.html">
+<meta name="description" content="介绍 Ubuntu server 14.04 LTS 安装 MariaDB 数据库。MariaDB 数据库是 MySQL 的一个分支，这里安装 MariaDB 5.5 版本基本完全兼容 MySQL。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Ubuntu server 14.04 安装 MariaDB">
+<meta property="og:url" content="http://blog.lilei360.cn/2016/09/20/Ubuntu-server-14-04-安装-MariaDB/index.html">
 <meta property="og:site_name" content="壮士凌云">
+<meta property="og:description" content="介绍 Ubuntu server 14.04 LTS 安装 MariaDB 数据库。MariaDB 数据库是 MySQL 的一个分支，这里安装 MariaDB 5.5 版本基本完全兼容 MySQL。">
+<meta property="og:updated_time" content="2016-09-19T15:57:37.519Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="壮士凌云">
+<meta name="twitter:title" content="Ubuntu server 14.04 安装 MariaDB">
+<meta name="twitter:description" content="介绍 Ubuntu server 14.04 LTS 安装 MariaDB 数据库。MariaDB 数据库是 MySQL 的一个分支，这里安装 MariaDB 5.5 版本基本完全兼容 MySQL。">
 
 <link rel="apple-touch-icon" href= "/apple-touch-icon.png">
 
@@ -52,7 +56,7 @@
 <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
 
-<title>Tag: django | 壮士凌云</title>
+<title>Ubuntu server 14.04 安装 MariaDB | 壮士凌云</title>
 
 <script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
 <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
@@ -62,9 +66,9 @@
         fancybox: true,
         animate: true,
         isHome: false,
-        isPost: false,
+        isPost: true,
         isArchive: false,
-        isTag: true,
+        isTag: false,
         isCategory: false,
         fancybox_js: "//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.js",
         scrollreveal: "//cdn.bootcss.com/scrollReveal.js/3.1.4/scrollreveal.min.js",
@@ -256,122 +260,199 @@
     </div>
     <link class="menu-list" tags="标签" friends="友情链接" about="关于我"/>
 </nav>
-      <div class="body-wrap">
+      <div class="body-wrap"><article id="post-Ubuntu-server-14-04-安装-MariaDB" class="article article-type-post" itemscope itemprop="blogPost">
   
+    <div class="article-meta">
+      <a href="/2016/09/20/Ubuntu-server-14-04-安装-MariaDB/" class="article-date">
+      <time datetime="2016-09-19T15:09:02.000Z" itemprop="datePublished">2016-09-20</time>
+</a>
+
+
+    </div>
   
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
     
     
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Ubuntu server 14.04 安装 MariaDB
+    </h1>
+  
+
+      </header>
       
+      <div class="article-info article-info-post">
+        
+
+        
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/mariadb/">mariadb</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ubuntu/">ubuntu</a></li></ul>
+    </div>
+
+        <div class="clearfix"></div>
+      </div>
       
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2016" class="archive-year">2016</a>
-        </div>
-        <div class="archives">
     
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-          <div class="article-meta">
-              <a href="/2016/09/06/python-web-学习-Django的单元测试/" class="archive-article-date">
-      <time datetime="2016-09-06T08:54:31.000Z" itemprop="datePublished">09-06</time>
-</a>
-
-
-        </div>
-         
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/09/06/python-web-学习-Django的单元测试/">python-web-学习-Django的单元测试</a>
-    </h1>
-  
-
-        <div class="article-info info-on-archive">
+    <div class="article-entry" itemprop="articleBody">
+      
           
+        <h2 id="手动安装-MariaDB"><a href="#手动安装-MariaDB" class="headerlink" title="手动安装 MariaDB"></a>手动安装 MariaDB</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">liam@bogon:~$ sudo apt -y install mariadb-server-5.5</div></pre></td></tr></table></figure>
+<p>配置数据库 root 用户密码</p>
+<blockquote>
+<p>While not mandatory, it is highly recommended that you set a password for the MariaDB administrative “root” user.<br>If this field is left blank, the password will not be changed.<br>New password for the MariaDB “root” user:    </p>
+</blockquote>
+<p>重复密码</p>
+<blockquote>
+<p>Repeat password for the MariaDB “root” user:</p>
+</blockquote>
+<p>因为 Ubuntu 之前还安装过 MySQL 这时候会提示 MariaDB 会替换 MySQL， 如果之前没有安装 MySQL 此时不会出现下面的对话：</p>
+<blockquote>
+<p>MariaDB is a drop-in replacement for MySQL. It will use your current configuration file (my.cnf) and current databases.<br>Note that MariaDB has some enhanced features, which do not exist in MySQL and thus migration back to MySQL might not always work, at least not as automatically as migrating from MySQL to MariaDB.</p>
+<p>Really migrate to MariaDB?</p>
+</blockquote>
+<p>选择<code>是</code>即可.</p>
+<h2 id="测试连接到数据库-MariaDB"><a href="#测试连接到数据库-MariaDB" class="headerlink" title="测试连接到数据库 MariaDB"></a>测试连接到数据库 MariaDB</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">liam@bogon:~$ mysql -u root -p</div><div class="line">Enter password:</div><div class="line">Welcome to the MariaDB monitor.  Commands end with ; or \g.</div><div class="line">Your MariaDB connection id is 29</div><div class="line">Server version: 5.5.49-MariaDB-1ubuntu0.14.04.1 (Ubuntu)</div><div class="line"></div><div class="line">Copyright (c) 2000, 2016, Oracle, MariaDB Corporation Ab and others.</div><div class="line"></div><div class="line">Type <span class="string">'help;'</span> or <span class="string">'\h'</span> <span class="keyword">for</span> help. Type <span class="string">'\c'</span> to clear the current input statement.</div><div class="line"></div><div class="line">MariaDB [(none)]&gt;</div></pre></td></tr></table></figure>
+<p>查看数据库信息<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line">MariaDB [(none)]&gt;</div><div class="line">MariaDB [(none)]&gt; show databases;</div><div class="line">+--------------------+</div><div class="line">| Database           |</div><div class="line">+--------------------+</div><div class="line">| information_schema |</div><div class="line">| mysql              |</div><div class="line">| performance_schema |</div><div class="line">+--------------------+</div><div class="line">3 rows <span class="keyword">in</span> <span class="built_in">set</span> (0.36 sec)</div><div class="line"></div><div class="line">MariaDB [(none)]&gt; <span class="built_in">exit</span></div><div class="line">Bye</div><div class="line">liam@bogon:~$</div></pre></td></tr></table></figure></p>
 
-          
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/django/">django</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/python/">python</a></li></ul>
+      
+    </div>
+    
+  </div>
+  
+    
+    <div class="copyright">
+        <p><span>本文标题:</span><a href="/2016/09/20/Ubuntu-server-14-04-安装-MariaDB/">Ubuntu server 14.04 安装 MariaDB</a></p>
+        <p><span>文章作者:</span><a href="/" title="回到主页">猫看天</a></p>
+        <p><span>发布时间:</span>2016-09-20, 00:09:02</p>
+        <p><span>最后更新:</span>2016-09-20, 00:57:37</p>
+        <p>
+            <span>原始链接:</span><a class="post-url" href="/2016/09/20/Ubuntu-server-14-04-安装-MariaDB/" title="Ubuntu server 14.04 安装 MariaDB">http://blog.lilei360.cn/2016/09/20/Ubuntu-server-14-04-安装-MariaDB/</a>
+            <span class="copy-path" data-clipboard-text="原文: http://blog.lilei360.cn/2016/09/20/Ubuntu-server-14-04-安装-MariaDB/　　作者: 猫看天" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
+            <script> var clipboard = new Clipboard('.copy-path'); </script>
+        </p>
+        <p>
+            <span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="CC BY-NC-SA 4.0 International" target = "_blank">"署名-非商用-相同方式共享 4.0"</a> 转载请保留原文链接及作者。
+        </p>
     </div>
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
+
+
+    <nav id="article-nav">
+        
+        
+            <div id="article-nav-older" class="article-nav-title">
+                <a href="/2016/09/16/Ubuntu-server-1404-配置-PHP5/">
+                    Ubuntu server 14.04 配置 PHP5
+                </a>
+            </div>
+        
+    </nav>
+
+  
 </article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-          <div class="article-meta">
-              <a href="/2016/08/24/python-web-学习——测试安装-Django/" class="archive-article-date">
-      <time datetime="2016-08-24T07:10:12.000Z" itemprop="datePublished">08-24</time>
-</a>
+
+    <div id="toc" class="toc-article">
+        <strong class="toc-title">文章目录</strong>
+        
+            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#手动安装-MariaDB"><span class="toc-number">1.</span> <span class="toc-text">手动安装 MariaDB</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#测试连接到数据库-MariaDB"><span class="toc-number">2.</span> <span class="toc-text">测试连接到数据库 MariaDB</span></a></li></ol>
+        
+    </div>
+    <style>
+        .left-col .switch-btn,
+        .left-col .switch-area {
+            display: none;
+        }
+        .toc-level-3 i,
+        .toc-level-3 ol {
+            display: none !important;
+        }
+    </style>
+
+    <input type="button" id="tocButton" value="隐藏目录"  title="点击按钮隐藏或者显示文章目录">
+
+    <script>
+        yiliaConfig.toc = ["隐藏目录", "显示目录", !!"false"];
+    </script>
 
 
+
+    
+<div class="share">
+    
+        <div class="bdsharebuttonbox">
+            <a href="#" class="fa fa-twitter bds_twi" data-cmd="twi" title="分享到推特"></a>
+            <a href="#" class="fa fa-weibo bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+            <a href="#" class="fa fa-qq bds_sqq" data-cmd="sqq" title="分享给 QQ 好友"></a>
+            <a href="#" class="fa fa-files-o bds_copy" data-cmd="copy" title="复制网址"></a>
+            <a href="#" class="fa fa fa-envelope-o bds_mail" data-cmd="mail" title="通过邮件分享"></a>
+            <a href="#" class="fa fa-weixin bds_weixin" data-cmd="weixin" title="生成文章二维码"></a>
+            <a href="#" class="fa fa-share-alt bds_more" data-cmd="more"></i></a>
         </div>
-         
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/08/24/python-web-学习——测试安装-Django/">python web 学习——测试安装 Django</a>
-    </h1>
-  
+        <script>
+            window._bd_share_config={
+                "common":{"bdSnsKey":{},"bdText":"Ubuntu server 14.04 安装 MariaDB　| 壮士凌云　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+        </script>
+    
 
-        <div class="article-info info-on-archive">
-          
+    
+</div>
 
-          
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/django/">django</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/python/">python</a></li></ul>
+
+
+
+
+
+
+    
+      <div class="duoshuo" id="comments">
+    <div id="comment-box" ></div>
+    <div class="ds-thread" id="ds-thread" data-thread-key="2016/09/20/Ubuntu-server-14-04-安装-MariaDB/" data-title="Ubuntu server 14.04 安装 MariaDB" data-url="http://blog.lilei360.cn/2016/09/20/Ubuntu-server-14-04-安装-MariaDB/"></div>
+    <script>
+        var duoshuoQuery = {short_name:"lilei360"};
+        var loadComment = function(){
+            var d = document, s = d.createElement('script');
+            s.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+            s.async = true; s.charset = 'UTF-8';
+            (d.head || d.body).appendChild(s);
+        }
+
+        
+    </script>
+    
+    <script> loadComment(); </script>
+
+</div>
+    
+
+
+
+
+    <div class="scroll" id="post-nav-button">
+        
+            <a href="/" title="回到主页"><i class="fa fa-home"></i></a>
+        
+
+        <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
+
+        
+            <a href="/2016/09/16/Ubuntu-server-1404-配置-PHP5/" title="下一篇: Ubuntu server 14.04 配置 PHP5">
+                <i class="fa fa-angle-right"></i>
+            </a>
+        
     </div>
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-          <div class="article-meta">
-              <a href="/2016/08/24/python-web-学习——环境/" class="archive-article-date">
-      <time datetime="2016-08-24T03:52:37.000Z" itemprop="datePublished">08-24</time>
-</a>
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2016/09/20/Ubuntu-server-14-04-安装-MariaDB/">Ubuntu server 14.04 安装 MariaDB</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/09/16/Ubuntu-server-1404-配置-PHP5/">Ubuntu server 14.04 配置 PHP5</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/09/14/Ubuntu-server-14-04-安装-Apache2/">Ubuntu server 14.04 安装 Apache2</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/09/06/python-web-学习-Django的单元测试/">python-web-学习-Django的单元测试</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/08/24/python-web-学习——测试安装-Django/">python web 学习——测试安装 Django</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/08/24/python-web-学习——环境/">python web 学习——环境</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/08/24/babun-配置备忘/">babun 配置备忘</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/08/23/如何禁用-Outlook-日历的通知邮件/">如何禁用 Outlook 日历的通知邮件</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/08/23/hello-world/">Hexo 的 Hello World ！</a></li></ul>
 
 
-        </div>
-         
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/08/24/python-web-学习——环境/">python web 学习——环境</a>
-    </h1>
-  
 
-        <div class="article-info info-on-archive">
-          
 
-          
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/django/">django</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/python/">python</a></li></ul>
-    </div>
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
-  
-
-    
-
+    <script>
+        
+    </script>
 </div>
       <footer id="footer">
     <div class="outer">
