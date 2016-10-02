@@ -22,7 +22,7 @@
 <meta property="og:site_name" content="壮士凌云">
 <meta property="og:description" content="babun 是一个把 cygwin、 zsh、 oh-my-zsh 等打包在一起，可以自动升级维护的、可以运行在 windows 上的 linux 命令行工具。">
 <meta property="og:image" content="http://blog.lilei360.cn/2016/08/24/babun-配置备忘/babun_ConEmu.png">
-<meta property="og:updated_time" content="2016-08-25T14:27:55.288Z">
+<meta property="og:updated_time" content="2016-10-02T13:18:37.433Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="babun 配置备忘">
 <meta name="twitter:description" content="babun 是一个把 cygwin、 zsh、 oh-my-zsh 等打包在一起，可以自动升级维护的、可以运行在 windows 上的 linux 命令行工具。">
@@ -305,6 +305,14 @@
         <p>　　babun 是一个把 cygwin、 zsh、 oh-my-zsh 等打包在一起，可以自动升级维护的、可以运行在 windows 上的 linux 命令行工具。</p>
 <h2 id="问题备忘"><a href="#问题备忘" class="headerlink" title="问题备忘"></a>问题备忘</h2><h3 id="windows-命令乱码"><a href="#windows-命令乱码" class="headerlink" title="windows 命令乱码"></a>windows 命令乱码</h3><p>例如 ipconfig 命令乱码，可以设置别名，并添加参数<br><code>Add | iconv -f GBK -t UTF8 after the CMD command.</code><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">alias</span> ifconfig=<span class="string">'ipconfig | iconv -f GBK -t UTF8'</span></div></pre></td></tr></table></figure></p>
 <h3 id="没有-telnet-命令"><a href="#没有-telnet-命令" class="headerlink" title="没有 telnet 命令"></a>没有 telnet 命令</h3><p>直接寻找 telnet 找不到，需要这个包 inetutils：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">pact install inetutils</div></pre></td></tr></table></figure></p>
+<h3 id="启动出现-dll-错误"><a href="#启动出现-dll-错误" class="headerlink" title="启动出现 dll 错误"></a>启动出现 dll 错误</h3><p>这个实际上是 Cygwin 的问题</p>
+<ol>
+<li>先把所有 <code>babun</code> 窗口都关闭，不行就重启</li>
+<li>进入 <code>babun</code> 的 <code>cygwin/bin</code> 目录</li>
+<li>以管理员身份运行 <code>ash.exe</code></li>
+<li>在 <code>ash.exe</code> 的窗口中运行 <code>/usr/bin/rebaseall -v</code>， 然后退出</li>
+<li>再次运行 <code>babun</code>, 完成修复</li>
+</ol>
 <h2 id="定制备忘"><a href="#定制备忘" class="headerlink" title="定制备忘"></a>定制备忘</h2><h3 id="喜欢的插件"><a href="#喜欢的插件" class="headerlink" title="喜欢的插件"></a>喜欢的插件</h3><p>zsh-syntax-highlighting</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> ~/.oh-my-zsh/custom/plugins</div><div class="line">git <span class="built_in">clone</span> git://github.com/zsh-users/zsh-syntax-highlighting.git</div><div class="line">plugins=( [plugins...] zsh-syntax-highlighting)</div><div class="line"><span class="built_in">source</span> ~/.zshrc or src</div></pre></td></tr></table></figure>
 <h3 id="将-Babun-加入到-ConEmu"><a href="#将-Babun-加入到-ConEmu" class="headerlink" title="将 Babun 加入到 ConEmu"></a>将 Babun 加入到 ConEmu</h3><p><a href="https://conemu.github.io/" target="_blank" rel="external">ConEmu</a> 是一个 Windows 控制台仿真器，可以集成多个控制台并定制GUI窗口。</p>
@@ -327,7 +335,7 @@
         <p><span>本文标题:</span><a href="/2016/08/24/babun-配置备忘/">babun 配置备忘</a></p>
         <p><span>文章作者:</span><a href="/" title="回到主页">猫看天</a></p>
         <p><span>发布时间:</span>2016-08-24, 11:02:35</p>
-        <p><span>最后更新:</span>2016-08-25, 23:27:55</p>
+        <p><span>最后更新:</span>2016-10-02, 22:18:37</p>
         <p>
             <span>原始链接:</span><a class="post-url" href="/2016/08/24/babun-配置备忘/" title="babun 配置备忘">http://blog.lilei360.cn/2016/08/24/babun-配置备忘/</a>
             <span class="copy-path" data-clipboard-text="原文: http://blog.lilei360.cn/2016/08/24/babun-配置备忘/　　作者: 猫看天" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
@@ -363,7 +371,7 @@
     <div id="toc" class="toc-article">
         <strong class="toc-title">文章目录</strong>
         
-            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#问题备忘"><span class="toc-number">1.</span> <span class="toc-text">问题备忘</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#windows-命令乱码"><span class="toc-number">1.1.</span> <span class="toc-text">windows 命令乱码</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#没有-telnet-命令"><span class="toc-number">1.2.</span> <span class="toc-text">没有 telnet 命令</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#定制备忘"><span class="toc-number">2.</span> <span class="toc-text">定制备忘</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#喜欢的插件"><span class="toc-number">2.1.</span> <span class="toc-text">喜欢的插件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#将-Babun-加入到-ConEmu"><span class="toc-number">2.2.</span> <span class="toc-text">将 Babun 加入到 ConEmu</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Windows-资源管理器上下文菜单集成管理"><span class="toc-number">2.3.</span> <span class="toc-text">Windows 资源管理器上下文菜单集成管理</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#启动时的检查"><span class="toc-number">2.4.</span> <span class="toc-text">启动时的检查</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#安装-Python3"><span class="toc-number">2.5.</span> <span class="toc-text">安装 Python3</span></a></li></ol></li></ol>
+            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#问题备忘"><span class="toc-number">1.</span> <span class="toc-text">问题备忘</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#windows-命令乱码"><span class="toc-number">1.1.</span> <span class="toc-text">windows 命令乱码</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#没有-telnet-命令"><span class="toc-number">1.2.</span> <span class="toc-text">没有 telnet 命令</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#启动出现-dll-错误"><span class="toc-number">1.3.</span> <span class="toc-text">启动出现 dll 错误</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#定制备忘"><span class="toc-number">2.</span> <span class="toc-text">定制备忘</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#喜欢的插件"><span class="toc-number">2.1.</span> <span class="toc-text">喜欢的插件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#将-Babun-加入到-ConEmu"><span class="toc-number">2.2.</span> <span class="toc-text">将 Babun 加入到 ConEmu</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Windows-资源管理器上下文菜单集成管理"><span class="toc-number">2.3.</span> <span class="toc-text">Windows 资源管理器上下文菜单集成管理</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#启动时的检查"><span class="toc-number">2.4.</span> <span class="toc-text">启动时的检查</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#安装-Python3"><span class="toc-number">2.5.</span> <span class="toc-text">安装 Python3</span></a></li></ol></li></ol>
         
     </div>
     <style>
