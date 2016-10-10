@@ -1,147 +1,278 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
-  <meta charset="utf-8">
-  
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-  <title>壮士凌云</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
+
+    <!--[if lt IE 9]>
+        <style>body {display: none; background: none !important} </style>
+        <meta http-equiv="Refresh" Content="0; url=//outdatedbrowser.com/" />
+    <![endif]-->
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="format-detection" content="telephone=no" />
+<meta name="author" content="猫看天" />
+
+
+    
+    
+
+
+<meta property="og:type" content="website">
 <meta property="og:title" content="壮士凌云">
 <meta property="og:url" content="http://blog.lilei360.cn/index.html">
 <meta property="og:site_name" content="壮士凌云">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="壮士凌云">
-  
-    <link rel="alternative" href="/atom.xml" title="壮士凌云" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="//favicon.png">
-  
-  <script src="/style.js"></script>
-  
+
+<link rel="apple-touch-icon" href= "/apple-touch-icon.png">
+
+
+    <link rel="alternate" href="/atom.xml" title="壮士凌云" type="application/atom+xml">
+
+
+
+    <link rel="shortcut icon" href="/favicon.png">
+
+
+
+    <link href="//cdn.bootcss.com/animate.css/3.5.1/animate.min.css" rel="stylesheet">
+
+
+
+    <link href="//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.css" rel="stylesheet">
+
+
+
+    <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+    <link href="//cdn.bootcss.com/pace/1.0.2/themes/blue/pace-theme-minimal.css" rel="stylesheet">
+
+
+<link rel="stylesheet" href="/css/style.css">
+
+
+    <style> .article { opacity: 0;} </style>
+
+
+<link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+
+
+<title>壮士凌云</title>
+
+<script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
+
+<script>
+    var yiliaConfig = {
+        fancybox: true,
+        animate: true,
+        isHome: true,
+        isPost: false,
+        isArchive: false,
+        isTag: false,
+        isCategory: false,
+        fancybox_js: "//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.js",
+        scrollreveal: "//cdn.bootcss.com/scrollReveal.js/3.1.4/scrollreveal.min.js",
+        search: undefined
+    }
+</script>
+
+
+    <script> yiliaConfig.jquery_ui = [false]; </script>
+
+
+
+    <script> yiliaConfig.rootUrl = "\/";</script>
+
+
+
+
+
 
 </head>
-
 <body>
   <div id="container">
     <div class="left-col">
-      <div class="overlay"></div>
+    <div class="overlay"></div>
 <div class="intrude-less">
-	<header id="header" class="inner">
-		<a href="/" class="profilepic">
-			
-			<img src="null" class="js-avatar">
-			
-		</a>
+    <header id="header" class="inner">
+        <a href="/" class="profilepic">
+            <img src="/img/avatar.png" class="animated zoomIn">
+        </a>
+        <hgroup>
+          <h1 class="header-author"><a href="/">猫看天</a></h1>
+        </hgroup>
 
-		<hgroup>
-		  <h1 class="header-author"><a href="/">猫看天</a></h1>
-		</hgroup>
+        
+        <p class="header-subtitle">猫看天的写写记记</p>
+        
 
-		
-		<p class="header-subtitle">猫看天的写写记记</p>
-		
+        
 
-		<nav class="header-menu">
-			<ul>
-			
-				<li><a href="/">主页</a></li>
-	        
-				<li><a href="/tags/随笔">随笔</a></li>
-	        
-			</ul>
-		</nav>
-		<nav class="header-smart-menu">
-	        
-    		
-    			
-    			<a class="js-smart-menu" data-idx="0" href="javascript:void(0)">所有文章</a>
-    			
-    			
-            
-    			
-    			<a class="js-smart-menu" data-idx="1" href="javascript:void(0)">标签</a>
-    			
-    			
-            
-    			
-    			<a class="js-smart-menu" data-idx="2" href="javascript:void(0)">友链</a>
-    			
-    			
-            
-    			
-    			<a class="js-smart-menu" data-idx="3" href="javascript:void(0)">关于我</a>
-    			
-    			
-            
-		</nav>
-		<nav class="header-nav">
-			<div class="social">
-				
-					<a class="github" target="_blank" href="#" title="github">github</a>
-		        
-					<a class="weibo" target="_blank" href="#" title="weibo">weibo</a>
-		        
-					<a class="rss" target="_blank" href="#" title="rss">rss</a>
-		        
-					<a class="zhihu" target="_blank" href="#" title="zhihu">zhihu</a>
-		        
-			</div>
-		</nav>
-	</header>		
+
+        
+            <div id="switch-btn" class="switch-btn">
+                <div class="icon">
+                    <div class="icon-ctn">
+                        <div class="icon-wrap icon-house" data-idx="0">
+                            <div class="birdhouse"></div>
+                            <div class="birdhouse_holes"></div>
+                        </div>
+                        <div class="icon-wrap icon-ribbon hide" data-idx="1">
+                            <div class="ribbon"></div>
+                        </div>
+                        
+                        <div class="icon-wrap icon-link hide" data-idx="2">
+                            <div class="loopback_l"></div>
+                            <div class="loopback_r"></div>
+                        </div>
+                        
+                        
+                        <div class="icon-wrap icon-me hide" data-idx="3">
+                            <div class="user"></div>
+                            <div class="shoulder"></div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <div class="tips-box hide">
+                    <div class="tips-arrow"></div>
+                    <ul class="tips-inner">
+                        <li>菜单</li>
+                        <li>标签</li>
+                        
+                        <li>友情链接</li>
+                        
+                        
+                        <li>关于我</li>
+                        
+                    </ul>
+                </div>
+            </div>
+        
+
+        <div id="switch-area" class="switch-area">
+            <div class="switch-wrap">
+                <section class="switch-part switch-part1">
+                    <nav class="header-menu">
+                        <ul>
+                        
+                            <li><a href="/">主页</a></li>
+                        
+                            <li><a href="/archives/">所有文章</a></li>
+                        
+                            <li><a href="/tags/">标签云</a></li>
+                        
+                            <li><a href="/about/">关于我</a></li>
+                        
+                        </ul>
+                    </nav>
+                    <nav class="header-nav">
+                        <ul class="social">
+                            
+                                <a class="fa Email" href="mailto:123@123.com" title="Email"></a>
+                            
+                                <a class="fa GitHub" href="#" title="GitHub"></a>
+                            
+                                <a class="fa RSS" href="/atom.xml" title="RSS"></a>
+                            
+                        </ul>
+                    </nav>
+                </section>
+                
+                
+                <section class="switch-part switch-part2">
+                    <div class="widget tagcloud" id="js-tagcloud">
+                        <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/apache2/">apache2</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/django/">django</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mariadb/">mariadb</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/php/">php</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/phpMyAdmin/">phpMyAdmin</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/python/">python</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ubuntu/">ubuntu</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/办公/">办公</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/工具/">工具</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/效率/">效率</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/资源/">资源</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/运维/">运维</a></li></ul>
+                    </div>
+                </section>
+                
+                
+                
+                <section class="switch-part switch-part3">
+                    <div id="js-friends">
+                    
+                      <a class="main-nav-link switch-friends-link" href="https://hexo.io">Hexo</a>
+                    
+                      <a class="main-nav-link switch-friends-link" href="https://pages.github.com/">GitHub</a>
+                    
+                      <a class="main-nav-link switch-friends-link" href="http://moxfive.xyz/">MOxFIVE</a>
+                    
+                    </div>
+                </section>
+                
+
+                
+                
+                <section class="switch-part switch-part4">
+                
+                    <div id="js-aboutme">IT 勤杂工</div>
+                </section>
+                
+            </div>
+        </div>
+    </header>                
 </div>
-
     </div>
     <div class="mid-col">
       <nav id="mobile-nav">
-  	<div class="overlay">
-  		<div class="slider-trigger"><i class="icon-list"></i></div>
-  		<h1 class="header-author js-mobile-header hide">猫看天</h1>
-  	</div>
-	<div class="intrude-less">
-		<header id="header" class="inner">
-			<div class="profilepic">
-				
-					<img src="null" class="js-avatar">
-				
-			</div>
-			<hgroup>
-			  <h1 class="header-author">猫看天</h1>
-			</hgroup>
-			
-			<p class="header-subtitle">猫看天的写写记记</p>
-			
-			<nav class="header-menu">
-				<ul>
-				
-					<li><a href="/">主页</a></li>
-		        
-					<li><a href="/tags/随笔">随笔</a></li>
-		        
-				</ul>
-			</nav>
-			<nav class="header-nav">
-				<div class="social">
-					
-						<a class="github" target="_blank" href="#" title="github">github</a>
-			        
-						<a class="weibo" target="_blank" href="#" title="weibo">weibo</a>
-			        
-						<a class="rss" target="_blank" href="#" title="rss">rss</a>
-			        
-						<a class="zhihu" target="_blank" href="#" title="zhihu">zhihu</a>
-			        
-				</div>
-			</nav>
-		</header>				
-	</div>
+      <div class="overlay">
+          <div class="slider-trigger"></div>
+          <h1 class="header-author js-mobile-header hide"><a href="/" title="回到主页">猫看天</a></h1>
+      </div>
+    <div class="intrude-less">
+        <header id="header" class="inner">
+            <a href="/" class="profilepic">
+                <img src="/img/avatar.png" class="animated zoomIn">
+            </a>
+            <hgroup>
+              <h1 class="header-author"><a href="/" title="回到主页">猫看天</a></h1>
+            </hgroup>
+            
+            <p class="header-subtitle">猫看天的写写记记</p>
+            
+            <nav class="header-menu">
+                <ul>
+                
+                    <li><a href="/">主页</a></li>
+                
+                    <li><a href="/archives/">所有文章</a></li>
+                
+                    <li><a href="/tags/">标签云</a></li>
+                
+                    <li><a href="/about/">关于我</a></li>
+                
+                <div class="clearfix"></div>
+                </ul>
+            </nav>
+            <nav class="header-nav">
+                        <ul class="social">
+                            
+                                <a class="fa Email" target="_blank" href="mailto:123@123.com" title="Email"></a>
+                            
+                                <a class="fa GitHub" target="_blank" href="#" title="GitHub"></a>
+                            
+                                <a class="fa RSS" target="_blank" href="/atom.xml" title="RSS"></a>
+                            
+                        </ul>
+            </nav>
+        </header>                
+    </div>
+    <link class="menu-list" tags="标签" friends="友情链接" about="关于我"/>
 </nav>
-
       <div class="body-wrap">
-        
   
     <article id="post-Ubuntu-server-14-04-用户管理" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/10/10/Ubuntu-server-14-04-用户管理/" class="article-date">
+      <time datetime="2016-10-09T15:20:38.000Z" itemprop="datePublished">2016-10-10</time>
+</a>
+
+
+    </div>
+  
   <div class="article-inner">
     
       <input type="hidden" class="isFancy" />
@@ -156,49 +287,36 @@
   
 
       </header>
+      
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>　　介绍 Ubuntu server 14.04 LTS 用户创建、root 用户启用， 配置 sudo 等。</p>
-<h3 id="创建用户"><a href="#创建用户" class="headerlink" title="创建用户"></a>创建用户</h3><ol>
-<li><p>添加用户</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 添加一个新用户 “user01”</span></div><div class="line">liam@bogon:~$ sudo adduser user01</div><div class="line">[sudo] password <span class="keyword">for</span> liam: 　　   <span class="comment"># liam 的密码</span></div><div class="line">正在添加用户<span class="string">"user01"</span>...</div><div class="line">正在添加新组<span class="string">"user01"</span> (1001)...</div><div class="line">正在添加新用户<span class="string">"user01"</span> (1001) 到组<span class="string">"user01"</span>...</div><div class="line">创建主目录<span class="string">"/home/user01"</span>...</div><div class="line">正在从<span class="string">"/etc/skel"</span>复制文件...</div><div class="line">输入新的 UNIX 密码：              <span class="comment"># 设置新用户的密码</span></div><div class="line">重新输入新的 UNIX 密码：     　　　<span class="comment"># 重复密码来确认</span></div><div class="line">passwd: password updated successfully</div><div class="line">Changing the user information <span class="keyword">for</span> user01</div><div class="line">Enter the new value, or press ENTER <span class="keyword">for</span> the default</div><div class="line">        Full Name []:              <span class="comment"># 若不需要直接回车即可</span></div><div class="line">        Room Number []:</div><div class="line">        Work Phone []:</div><div class="line">        Home Phone []:</div><div class="line">        Other []:</div><div class="line">这些信息是否正确？ [Y/n] y</div></pre></td></tr></table></figure>
-</li>
-<li><p>更改用户权限。 当你安装Ubuntu的时候，它会自动添加第一个用户到 sudo 组，允许这个用户通过键入其自身帐户密码来获得超级用户(root)身份。你也可以将其他用户添加到 sudo 组。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 例如将用户添加至 sudo 用户组</span></div><div class="line">liam@bogon:~$ sudo usermod -G sudo user01</div></pre></td></tr></table></figure>
-</li>
-</ol>
-<p>用户 <code>user01</code> 即可拥有 sudo 权限</p>
-<h3 id="启用-root-账号"><a href="#启用-root-账号" class="headerlink" title="启用 root 账号"></a>启用 root 账号</h3><p>　　在 Ubuntu 中 root 帐户默认是禁用的，因为他没有设置口令。但是，如果你想使用root账号，你可以使用如下方法。</p>
-<ol>
-<li><p>使用 <code>sudo -s</code> 命令</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">liam@bogon:~$ sudo <span class="_">-s</span></div><div class="line">[sudo] password <span class="keyword">for</span> liam:</div><div class="line">root@bogon:~<span class="comment">#</span></div></pre></td></tr></table></figure>
-</li>
-<li><p>你还可以设置 root 的用户密码来启用 root</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">liam@bogon:~$ sudo passwd root</div><div class="line">[sudo] password <span class="keyword">for</span> liam:      <span class="comment"># liam 的密码</span></div><div class="line">输入新的 UNIX 密码：            <span class="comment"># 设置 root 的密码</span></div><div class="line">重新输入新的 UNIX 密码：        <span class="comment"># 确认密码</span></div><div class="line">passwd: password updated successfully</div><div class="line">liam@bogon:~$</div><div class="line">liam@bogon:~$</div><div class="line">liam@bogon:~$</div><div class="line">liam@bogon:~$</div><div class="line">liam@bogon:~$ su -</div><div class="line">密码：                         <span class="comment"># 输入 root 用户密码</span></div><div class="line">root@bogon:~<span class="comment">#                 # 切换至 root 用户</span></div></pre></td></tr></table></figure>
-</li>
-</ol>
-
+          
+              介绍 Ubuntu server 14.04 LTS 用户创建、root 用户启用， 配置 sudo 等。
+          
       
     </div>
+    
     <div class="article-info article-info-index">
       
-      <a href="/2016/10/10/Ubuntu-server-14-04-用户管理/" class="archive-article-date">
-  	<time datetime="2016-10-09T15:20:38.000Z" itemprop="datePublished"><i class="icon-clock"></i>2016-10-10</time>
-</a>
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags"></i>
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ubuntu/">ubuntu</a></li></ul>
-	</div>
-
       
 
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ubuntu/">ubuntu</a></li></ul>
+    </div>
+
+      
+        <p class="article-more-link">
+          <a href="/2016/10/10/Ubuntu-server-14-04-用户管理/#more">more >></a>
+        </p>
+      
       <div class="clearfix"></div>
     </div>
+    
   </div>
+  
 </article>
-
 
 
 
@@ -210,6 +328,15 @@
 
   
     <article id="post-运维常用资源备忘与更新" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/09/22/运维常用资源备忘与更新/" class="article-date">
+      <time datetime="2016-09-22T09:33:47.000Z" itemprop="datePublished">2016-09-22</time>
+</a>
+
+
+    </div>
+  
   <div class="article-inner">
     
       <input type="hidden" class="isFancy" />
@@ -224,33 +351,36 @@
   
 
       </header>
+      
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>更新时间（201609）</p>
-<h3 id="常用运维资源镜像站点"><a href="#常用运维资源镜像站点" class="headerlink" title="常用运维资源镜像站点"></a>常用运维资源镜像站点</h3><p><a href="http://ftp5.gwdg.de/pub/" target="_blank" rel="external">http://ftp5.gwdg.de/pub/</a><br><a href="http://mirror.aarnet.edu.au/pub/" target="_blank" rel="external">http://mirror.aarnet.edu.au/pub/</a><br><a href="http://mirrors.ircam.fr/pub/" target="_blank" rel="external">http://mirrors.ircam.fr/pub/</a><br><a href="http://ftp.heanet.ie/mirrors/" target="_blank" rel="external">http://ftp.heanet.ie/mirrors/</a><br><a href="http://ftp.icm.edu.pl/pub/" target="_blank" rel="external">http://ftp.icm.edu.pl/pub/</a><br><a href="http://mirrors.dotsrc.org/" target="_blank" rel="external">http://mirrors.dotsrc.org/</a></p>
-<h3 id="Oracle-Linux-资源"><a href="#Oracle-Linux-资源" class="headerlink" title="Oracle Linux 资源"></a>Oracle Linux 资源</h3><p><a href="http://mirrors.wimmekes.net/pub/" target="_blank" rel="external">http://mirrors.wimmekes.net/pub/</a></p>
-
+          
+              各种资源如 Ubuntu, CentOS, MySQL 等等开源软件的镜像资源。
+          
       
     </div>
+    
     <div class="article-info article-info-index">
       
-      <a href="/2016/09/22/运维常用资源备忘与更新/" class="archive-article-date">
-  	<time datetime="2016-09-22T09:33:47.000Z" itemprop="datePublished"><i class="icon-clock"></i>2016-09-22</time>
-</a>
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags"></i>
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/资源/">资源</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/运维/">运维</a></li></ul>
-	</div>
-
       
 
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/资源/">资源</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/运维/">运维</a></li></ul>
+    </div>
+
+      
+        <p class="article-more-link">
+          <a href="/2016/09/22/运维常用资源备忘与更新/#more">more >></a>
+        </p>
+      
       <div class="clearfix"></div>
     </div>
+    
   </div>
+  
 </article>
-
 
 
 
@@ -262,6 +392,15 @@
 
   
     <article id="post-Ubuntu-server-14-04-为-MariaDB-或-MySQL-安装配置-phpMyAdmin" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/09/21/Ubuntu-server-14-04-为-MariaDB-或-MySQL-安装配置-phpMyAdmin/" class="article-date">
+      <time datetime="2016-09-21T13:54:41.000Z" itemprop="datePublished">2016-09-21</time>
+</a>
+
+
+    </div>
+  
   <div class="article-inner">
     
       <input type="hidden" class="isFancy" />
@@ -276,41 +415,36 @@
   
 
       </header>
+      
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>phpMyAdmin 是一个 MySQL 的 web 客户端（兼容 MariaDB），这里介绍在 Ubuntu 中安装配置 phpMyAdmin 。</p>
-<h3 id="安装准备"><a href="#安装准备" class="headerlink" title="安装准备"></a>安装准备</h3><p>前面我们已经安装了 MariaDB 或者 MySQL 数据库。 也安装了 Apache2 和 php 环境，这些是安装 phpMyAdmin 之前应该完成的。</p>
-<h3 id="安装-phpMyAdmin"><a href="#安装-phpMyAdmin" class="headerlink" title="安装 phpMyAdmin"></a>安装 phpMyAdmin</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">liam@bogon:~$ sudo apt -y install phpmyadmin</div></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">+------------------------+ Configuring phpmyadmin +-------------------------+</div><div class="line">| Please choose the web server that should be automatically configured to   |</div><div class="line">| run phpMyAdmin.                                                           |</div><div class="line">|                                                                           |</div><div class="line">| Web server to reconfigure automatically:                                  |</div><div class="line">|                                                                           |</div><div class="line">|    [*] apache2                                                            |</div><div class="line">|    [ ] lighttpd                                                           |</div><div class="line">|                                                                           |</div><div class="line">|                                                                           |</div><div class="line">|                                  &lt;Ok&gt;                                     |</div><div class="line">|                                                                           |</div><div class="line">+---------------------------------------------------------------------------+</div></pre></td></tr></table></figure>
-<p>选择你使用的 Web server，这里我们选择 apache2</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div></pre></td><td class="code"><pre><div class="line">+------------------------+ Configuring phpmyadmin +-------------------------+</div><div class="line">|                                                                           |</div><div class="line">| The phpmyadmin package must have a database installed and configured      |</div><div class="line">| before it can be used.  This can be optionally handled with               |</div><div class="line">| dbconfig-common.                                                          |</div><div class="line">|                                                                           |</div><div class="line">| If you are an advanced database administrator and know that you want to   |</div><div class="line">| perform this configuration manually, or if your database has already      |</div><div class="line">| been installed and configured, you should refuse this option.  Details    |</div><div class="line">| on what needs to be done should most likely be provided in                |</div><div class="line">| /usr/share/doc/phpmyadmin.                                                |</div><div class="line">|                                                                           |</div><div class="line">| Otherwise, you should probably choose this option.                        |</div><div class="line">|                                                                           |</div><div class="line">| Configure database for phpmyadmin with dbconfig-common?                   |</div><div class="line">|                                                                           |</div><div class="line">|                    &lt;Yes&gt;                       &lt;No&gt;                       |</div><div class="line">|                                                                           |</div><div class="line">+---------------------------------------------------------------------------+</div></pre></td></tr></table></figure>
-<p>这里回答 <code>No</code></p>
-<p>配置 apache.conf 文件<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">liam@bogon:~$ sudo vi /etc/phpmyadmin/apache.conf</div></pre></td></tr></table></figure></p>
-<p>更改第8行<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Require ip 127.0.0.1 192.168.199.133</div></pre></td></tr></table></figure></p>
-<p>上面是配置允许访问的 IP 地址，把 192.168.199.133 替换为你实际访问 Ubuntu 的地址<br>然后重启 Apache2<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">liam@bogon:~$ sudo /etc/init.d/apache2 restart</div></pre></td></tr></table></figure></p>
-<p>此时就可以在浏览器中输入地址 <code>http://(你的服务器地址)/phpmyadmin</code> ，登录后，你就可以使用 phpMyAdmin 来操作 MySQL 或 MariaDB 了。</p>
-
+          
+              phpMyAdmin 是一个 MySQL 的 web 客户端（兼容 MariaDB），这里介绍在 Ubuntu 中安装配置 phpMyAdmin 。
+          
       
     </div>
+    
     <div class="article-info article-info-index">
       
-      <a href="/2016/09/21/Ubuntu-server-14-04-为-MariaDB-或-MySQL-安装配置-phpMyAdmin/" class="archive-article-date">
-  	<time datetime="2016-09-21T13:54:41.000Z" itemprop="datePublished"><i class="icon-clock"></i>2016-09-21</time>
-</a>
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags"></i>
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/phpMyAdmin/">phpMyAdmin</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ubuntu/">ubuntu</a></li></ul>
-	</div>
-
       
 
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/phpMyAdmin/">phpMyAdmin</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ubuntu/">ubuntu</a></li></ul>
+    </div>
+
+      
+        <p class="article-more-link">
+          <a href="/2016/09/21/Ubuntu-server-14-04-为-MariaDB-或-MySQL-安装配置-phpMyAdmin/#more">more >></a>
+        </p>
+      
       <div class="clearfix"></div>
     </div>
+    
   </div>
+  
 </article>
-
 
 
 
@@ -322,6 +456,15 @@
 
   
     <article id="post-Ubuntu-server-14-04-安装-MariaDB" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/09/20/Ubuntu-server-14-04-安装-MariaDB/" class="article-date">
+      <time datetime="2016-09-19T15:09:02.000Z" itemprop="datePublished">2016-09-20</time>
+</a>
+
+
+    </div>
+  
   <div class="article-inner">
     
       <input type="hidden" class="isFancy" />
@@ -336,48 +479,36 @@
   
 
       </header>
+      
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="手动安装-MariaDB"><a href="#手动安装-MariaDB" class="headerlink" title="手动安装 MariaDB"></a>手动安装 MariaDB</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">liam@bogon:~$ sudo apt -y install mariadb-server-5.5</div></pre></td></tr></table></figure>
-<p>配置数据库 root 用户密码</p>
-<blockquote>
-<p>While not mandatory, it is highly recommended that you set a password for the MariaDB administrative “root” user.<br>If this field is left blank, the password will not be changed.<br>New password for the MariaDB “root” user:    </p>
-</blockquote>
-<p>重复密码</p>
-<blockquote>
-<p>Repeat password for the MariaDB “root” user:</p>
-</blockquote>
-<p>因为 Ubuntu 之前还安装过 MySQL 这时候会提示 MariaDB 会替换 MySQL， 如果之前没有安装 MySQL 此时不会出现下面的对话：</p>
-<blockquote>
-<p>MariaDB is a drop-in replacement for MySQL. It will use your current configuration file (my.cnf) and current databases.<br>Note that MariaDB has some enhanced features, which do not exist in MySQL and thus migration back to MySQL might not always work, at least not as automatically as migrating from MySQL to MariaDB.</p>
-<p>Really migrate to MariaDB?</p>
-</blockquote>
-<p>选择<code>是</code>即可.</p>
-<h2 id="测试连接到数据库-MariaDB"><a href="#测试连接到数据库-MariaDB" class="headerlink" title="测试连接到数据库 MariaDB"></a>测试连接到数据库 MariaDB</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">liam@bogon:~$ mysql -u root -p</div><div class="line">Enter password:</div><div class="line">Welcome to the MariaDB monitor.  Commands end with ; or \g.</div><div class="line">Your MariaDB connection id is 29</div><div class="line">Server version: 5.5.49-MariaDB-1ubuntu0.14.04.1 (Ubuntu)</div><div class="line"></div><div class="line">Copyright (c) 2000, 2016, Oracle, MariaDB Corporation Ab and others.</div><div class="line"></div><div class="line">Type <span class="string">'help;'</span> or <span class="string">'\h'</span> <span class="keyword">for</span> help. Type <span class="string">'\c'</span> to clear the current input statement.</div><div class="line"></div><div class="line">MariaDB [(none)]&gt;</div></pre></td></tr></table></figure>
-<p>查看数据库信息<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line">MariaDB [(none)]&gt;</div><div class="line">MariaDB [(none)]&gt; show databases;</div><div class="line">+--------------------+</div><div class="line">| Database           |</div><div class="line">+--------------------+</div><div class="line">| information_schema |</div><div class="line">| mysql              |</div><div class="line">| performance_schema |</div><div class="line">+--------------------+</div><div class="line">3 rows <span class="keyword">in</span> <span class="built_in">set</span> (0.36 sec)</div><div class="line"></div><div class="line">MariaDB [(none)]&gt; <span class="built_in">exit</span></div><div class="line">Bye</div><div class="line">liam@bogon:~$</div></pre></td></tr></table></figure></p>
-<p><a href="http://www.youku.com/playlist_show/id_28192607.html" target="_blank" rel="external">相关视频</a></p>
-
+          
+              介绍 Ubuntu server 14.04 LTS 安装 MariaDB 数据库。MariaDB 数据库是 MySQL 的一个分支，这里安装 MariaDB 5.5 版本基本完全兼容 MySQL。
+          
       
     </div>
+    
     <div class="article-info article-info-index">
       
-      <a href="/2016/09/20/Ubuntu-server-14-04-安装-MariaDB/" class="archive-article-date">
-  	<time datetime="2016-09-19T15:09:02.000Z" itemprop="datePublished"><i class="icon-clock"></i>2016-09-20</time>
-</a>
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags"></i>
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/mariadb/">mariadb</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ubuntu/">ubuntu</a></li></ul>
-	</div>
-
       
 
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/mariadb/">mariadb</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ubuntu/">ubuntu</a></li></ul>
+    </div>
+
+      
+        <p class="article-more-link">
+          <a href="/2016/09/20/Ubuntu-server-14-04-安装-MariaDB/#more">more >></a>
+        </p>
+      
       <div class="clearfix"></div>
     </div>
+    
   </div>
+  
 </article>
-
 
 
 
@@ -389,6 +520,15 @@
 
   
     <article id="post-Ubuntu-server-1404-配置-PHP5" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/09/16/Ubuntu-server-1404-配置-PHP5/" class="article-date">
+      <time datetime="2016-09-16T04:12:02.000Z" itemprop="datePublished">2016-09-16</time>
+</a>
+
+
+    </div>
+  
   <div class="article-inner">
     
       <input type="hidden" class="isFancy" />
@@ -403,39 +543,36 @@
   
 
       </header>
+      
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>　　我们在安装 Ubuntu server 14.04 LTS 时已经选择了 LAMP server 。此时 Ubuntu 也已经安装了 PHP 如果安装 Ubuntu 的时候没有选择 LAMP ，这里我们可以手动安装。</p>
-<h2 id="手动安装-PHP"><a href="#手动安装-PHP" class="headerlink" title="手动安装 PHP"></a>手动安装 PHP</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">liam@bogon:~$ sudo apt -y install php5 php5-cgi libapache2-mod-php5 php5-common php-pear</div></pre></td></tr></table></figure>
-<h2 id="配置-Apache2"><a href="#配置-Apache2" class="headerlink" title="配置 Apache2"></a>配置 Apache2</h2><h3 id="配置-php5-cgi-conf-文件"><a href="#配置-php5-cgi-conf-文件" class="headerlink" title="配置 php5-cgi.conf 文件"></a>配置 php5-cgi.conf 文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">liam@bogon:~$ sudo a2enconf php5-cgi.conf</div><div class="line">Enabling conf php5-cgi.</div><div class="line">To activate the new configuration, you need to run:</div><div class="line">  service apache2 reload</div></pre></td></tr></table></figure>
-<h3 id="配置-php-ini"><a href="#配置-php-ini" class="headerlink" title="配置 php.ini"></a>配置 php.ini</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">liam@bogon:~$ sudo vi /etc/php5/apache2/php.ini</div></pre></td></tr></table></figure>
-<p>更改第 879 行, 配置时区<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># line 879: uncomment and add your timezone</span></div><div class="line">date.timezone = <span class="string">"Asia/Shanghai"</span></div></pre></td></tr></table></figure></p>
-<h3 id="重启-Apache2"><a href="#重启-Apache2" class="headerlink" title="重启 Apache2"></a>重启 Apache2</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">liam@bwgon:~$ sudo /etc/init.d/apache2 restart</div><div class="line"> * Restarting web server apache2</div><div class="line">   ...done.</div></pre></td></tr></table></figure>
-<h2 id="创建一个-PHP-测试页面，验证-PHP-是否正常运行"><a href="#创建一个-PHP-测试页面，验证-PHP-是否正常运行" class="headerlink" title="创建一个 PHP 测试页面，验证 PHP 是否正常运行"></a>创建一个 PHP 测试页面，验证 PHP 是否正常运行</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">liam@bogon:~$ sudo vi /var/www/html/index.php</div><div class="line">&lt;html&gt;</div><div class="line">&lt;body&gt;</div><div class="line">&lt;h1&gt;</div><div class="line">&lt;?php</div><div class="line">      <span class="built_in">print</span> Date(<span class="string">"Y/m/d"</span>);</div><div class="line">?&gt;</div><div class="line">&lt;/h1&gt;</div><div class="line">&lt;/body&gt;</div><div class="line">&lt;/html&gt;</div></pre></td></tr></table></figure>
-<p>在浏览器中打开 <code>http://(your server&#39;s hostname or IP address)/index.php</code> 验证，你应该看到页面显示当前日期。</p>
-<p><a href="http://www.youku.com/playlist_show/id_28192607.html" target="_blank" rel="external">相关视频</a></p>
-
+          
+              Ubuntu server 14.04 LTS 安装与配置 PHP, 并验证 PHP 是否工作。
+          
       
     </div>
+    
     <div class="article-info article-info-index">
       
-      <a href="/2016/09/16/Ubuntu-server-1404-配置-PHP5/" class="archive-article-date">
-  	<time datetime="2016-09-16T04:12:02.000Z" itemprop="datePublished"><i class="icon-clock"></i>2016-09-16</time>
-</a>
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags"></i>
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/php/">php</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ubuntu/">ubuntu</a></li></ul>
-	</div>
-
       
 
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/php/">php</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ubuntu/">ubuntu</a></li></ul>
+    </div>
+
+      
+        <p class="article-more-link">
+          <a href="/2016/09/16/Ubuntu-server-1404-配置-PHP5/#more">more >></a>
+        </p>
+      
       <div class="clearfix"></div>
     </div>
+    
   </div>
+  
 </article>
-
 
 
 
@@ -447,6 +584,15 @@
 
   
     <article id="post-Ubuntu-server-14-04-安装-Apache2" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/09/14/Ubuntu-server-14-04-安装-Apache2/" class="article-date">
+      <time datetime="2016-09-14T03:54:37.000Z" itemprop="datePublished">2016-09-14</time>
+</a>
+
+
+    </div>
+  
   <div class="article-inner">
     
       <input type="hidden" class="isFancy" />
@@ -461,44 +607,36 @@
   
 
       </header>
+      
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>　　我们在安装 Ubuntu server 14.04 LTS 时已经选择了 LAMP server 。此时 Ubuntu 就已经安装了 Apache2。 如果安装 Ubuntu 的时候没有选择 LAMP ，这里我们可以手动安装。</p>
-<p>　　安装 Apache2 并配置 HTTP Server 为 80/TCP.</p>
-<h2 id="手动安装-Apache2"><a href="#手动安装-Apache2" class="headerlink" title="手动安装 Apache2."></a>手动安装 Apache2.</h2><p>通过 <code>sudo /etc/init.d/apache2 status</code> 可以查看 apache2 状态，如果还没有安装，可以下面的指令手动安装 apache2 :<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">liam@bogon:~$ sudo apt-get -y install apache2</div></pre></td></tr></table></figure></p>
-<h2 id="配置-Apache2"><a href="#配置-Apache2" class="headerlink" title="配置 Apache2."></a>配置 Apache2.</h2><h3 id="配置-security-conf-文件"><a href="#配置-security-conf-文件" class="headerlink" title="配置 security.conf 文件"></a>配置 <code>security.conf</code> 文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">liam@bogon:~$ sudo vim /etc/apache2/conf-enabled/security.conf</div></pre></td></tr></table></figure>
-<p>在文件 <code>security.conf</code> 中找到以下行，进行更改：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># line 26: change</span></div><div class="line">ServerTokens Prod</div><div class="line"><span class="comment"># line 37: change</span></div><div class="line">ServerSignature Off</div></pre></td></tr></table></figure></p>
-<h3 id="配置-dir-conf-文件"><a href="#配置-dir-conf-文件" class="headerlink" title="配置 dir.conf 文件"></a>配置 <code>dir.conf</code> 文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">liam@bogon:~$ sudo vi /etc/apache2/mods-enabled/dir.conf</div></pre></td></tr></table></figure>
-<p>更改第二行：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># line 2: add file name that it can access only with directory's name</span></div><div class="line">DirectoryIndex index.html index.htm</div></pre></td></tr></table></figure></p>
-<h3 id="配置-apache2-conf"><a href="#配置-apache2-conf" class="headerlink" title="配置 apache2.conf"></a>配置 <code>apache2.conf</code></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">liam@bogon:~$ sudo vi /etc/apache2/apache2.conf</div></pre></td></tr></table></figure>
-<p>更改第70行,替换成你的域名：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># line 70: add server name</span></div><div class="line">ServerName www.myserver.sample</div></pre></td></tr></table></figure></p>
-<h3 id="配置-000-default-conf"><a href="#配置-000-default-conf" class="headerlink" title="配置 000-default.conf"></a>配置 <code>000-default.conf</code></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">liam@bogon:~$ sudo vi /etc/apache2/sites-enabled/000-default.conf</div></pre></td></tr></table></figure>
-<p>更改第11行：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># line 11: change admin email address</span></div><div class="line">ServerAdmin webmaster@myserver.sample</div></pre></td></tr></table></figure></p>
-<h2 id="重启-apache2-服务"><a href="#重启-apache2-服务" class="headerlink" title="重启 apache2 服务"></a>重启 apache2 服务</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">liam@bogon:~$ sudo /etc/init.d/apache2 restart</div><div class="line">* Restarting web server apache2</div><div class="line"> ...done.</div></pre></td></tr></table></figure>
-<h2 id="验证-apache2"><a href="#验证-apache2" class="headerlink" title="验证 apache2"></a>验证 apache2</h2><p>在浏览器中输入 <code>http://(your server&#39;s hostname or IP address)/</code> , 你应该看到 apache2 的默认页面。</p>
-<p><a href="http://www.youku.com/playlist_show/id_28192607.html" target="_blank" rel="external">相关视频</a></p>
-
+          
+              Ubuntu server 14.04 LTS 安装 Apache2 并配置 HTTP 服务，使用 80/TCP。
+          
       
     </div>
+    
     <div class="article-info article-info-index">
       
-      <a href="/2016/09/14/Ubuntu-server-14-04-安装-Apache2/" class="archive-article-date">
-  	<time datetime="2016-09-14T03:54:37.000Z" itemprop="datePublished"><i class="icon-clock"></i>2016-09-14</time>
-</a>
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags"></i>
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/apache2/">apache2</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ubuntu/">ubuntu</a></li></ul>
-	</div>
-
       
 
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/apache2/">apache2</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ubuntu/">ubuntu</a></li></ul>
+    </div>
+
+      
+        <p class="article-more-link">
+          <a href="/2016/09/14/Ubuntu-server-14-04-安装-Apache2/#more">more >></a>
+        </p>
+      
       <div class="clearfix"></div>
     </div>
+    
   </div>
+  
 </article>
-
 
 
 
@@ -510,6 +648,15 @@
 
   
     <article id="post-python-web-学习-Django的单元测试" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/09/06/python-web-学习-Django的单元测试/" class="article-date">
+      <time datetime="2016-09-06T08:54:31.000Z" itemprop="datePublished">2016-09-06</time>
+</a>
+
+
+    </div>
+  
   <div class="article-inner">
     
       <input type="hidden" class="isFancy" />
@@ -524,46 +671,36 @@
   
 
       </header>
+      
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>[学习笔记] 使用 python 做 web 开发， Django 的单元测试。</p>
-<h2 id="创建-Django-的单元测试"><a href="#创建-Django-的单元测试" class="headerlink" title="创建 Django 的单元测试"></a>创建 Django 的单元测试</h2><ol>
-<li>创建一个 Django 应用<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ python3 manage.py startapp &lt;应用名称&gt;</div></pre></td></tr></table></figure>
-</li>
-</ol>
-<p><code>&lt;应用名称&gt;</code> 目录中的 <code>tests.py</code> 即单元测试代码</p>
-<ol>
-<li>运行测试<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ python3 manage.py <span class="built_in">test</span></div></pre></td></tr></table></figure>
-</li>
-</ol>
-<p>将执行 tests.py 中的测试代码</p>
-<h2 id="测试-Django-中的-MVC-URL-和视图函数"><a href="#测试-Django-中的-MVC-URL-和视图函数" class="headerlink" title="测试 Django 中的 MVC URL 和视图函数"></a>测试 Django 中的 MVC URL 和视图函数</h2><ol>
-<li>测试 views.py 中的 home_page<pre><code class="python">
-</code></pre>
-2.</li>
-</ol>
-
+          
+              学习笔记一篇。使用 python 做 web 开发，Django 的单元测试。
+          
       
     </div>
+    
     <div class="article-info article-info-index">
       
-      <a href="/2016/09/06/python-web-学习-Django的单元测试/" class="archive-article-date">
-  	<time datetime="2016-09-06T08:54:31.000Z" itemprop="datePublished"><i class="icon-clock"></i>2016-09-06</time>
-</a>
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags"></i>
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/django/">django</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/python/">python</a></li></ul>
-	</div>
-
       
 
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/django/">django</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/python/">python</a></li></ul>
+    </div>
+
+      
+        <p class="article-more-link">
+          <a href="/2016/09/06/python-web-学习-Django的单元测试/#more">more >></a>
+        </p>
+      
       <div class="clearfix"></div>
     </div>
+    
   </div>
+  
 </article>
-
 
 
 
@@ -575,6 +712,15 @@
 
   
     <article id="post-python-web-学习——测试安装-Django" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/08/24/python-web-学习——测试安装-Django/" class="article-date">
+      <time datetime="2016-08-24T07:10:12.000Z" itemprop="datePublished">2016-08-24</time>
+</a>
+
+
+    </div>
+  
   <div class="article-inner">
     
       <input type="hidden" class="isFancy" />
@@ -589,47 +735,36 @@
   
 
       </header>
+      
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>[学习笔记] 使用 python 做 web 开发， python web 测试基础学习。</p>
-<h2 id="编写测试代码"><a href="#编写测试代码" class="headerlink" title="编写测试代码"></a>编写测试代码</h2><h3 id="简单的测试："><a href="#简单的测试：" class="headerlink" title="简单的测试："></a>简单的测试：</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># functional_tests.py</span></div><div class="line"><span class="keyword">from</span> selenium <span class="keyword">import</span> webdriver</div><div class="line"></div><div class="line">browser = webdriver.Firefox()</div><div class="line">browser.get(<span class="string">'http://localhost:8000'</span>)</div><div class="line"></div><div class="line"><span class="keyword">assert</span> <span class="string">'Django'</span> <span class="keyword">in</span> browser.title</div></pre></td></tr></table></figure>
-<ul>
-<li>引用 <code>selenium</code></li>
-<li><code>browser = webdriver.Firefox()</code> 将打开 Firefox 浏览器，注意这里 Firefox 需要在当前路径变量中，可直接执行，否则会提示找不到 Firefox</li>
-<li><code>assert &#39;Django&#39; in browser.title</code> 看看打开的网页中是否包含 <code>Django</code></li>
-</ul>
-<h3 id="使用-unittest-模块测试"><a href="#使用-unittest-模块测试" class="headerlink" title="使用 unittest 模块测试"></a>使用 unittest 模块测试</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># functional_tests.py</span></div><div class="line"><span class="keyword">from</span> selenium <span class="keyword">import</span> webdriver</div><div class="line"><span class="keyword">import</span> unittest</div><div class="line"></div><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">NewVisitorTest</span><span class="params">(unittest.TestCase)</span>:</span></div><div class="line"></div><div class="line">  <span class="function"><span class="keyword">def</span> <span class="title">setUp</span><span class="params">(self)</span>:</span></div><div class="line">    self.browser = webdriver.Firefox()</div><div class="line"></div><div class="line">  <span class="function"><span class="keyword">def</span> <span class="title">tearDown</span><span class="params">(self)</span>:</span></div><div class="line">    self.browser.quit()</div><div class="line"></div><div class="line">  <span class="function"><span class="keyword">def</span> <span class="title">test_for_you</span><span class="params">(self)</span>:</span></div><div class="line">    self.browser.get(<span class="string">'http://localhost:8000'</span>)</div><div class="line"></div><div class="line">    self.assertIn(<span class="string">'Django'</span>, self.browser.title)</div><div class="line">    self.fail(<span class="string">'Finish the test!'</span>)</div><div class="line"></div><div class="line"><span class="keyword">if</span> __name__ == <span class="string">'__main__'</span>:</div><div class="line">  unittest.main()</div></pre></td></tr></table></figure>
-<ul>
-<li>测试方法继承自 <code>unittest.TestCase</code></li>
-<li><code>setUp</code> <code>tearDown</code> 是特殊方法，分别在测试方法之前和之后运行</li>
-<li><code>self.assertIn</code> 是 <code>unittest</code> 提供的测试断言的<a href="http://docs.python.org/3/library/unittest.html" target="_blank" rel="external">辅助函数</a></li>
-</ul>
-<h2 id="Django-运行"><a href="#Django-运行" class="headerlink" title="Django 运行"></a>Django 运行</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ django-admin.py startproject &lt;项目名称&gt;</div><div class="line">$ <span class="built_in">cd</span> &lt;项目名称&gt;</div><div class="line">$ python3 manage.py runserver  <span class="comment"># 运行 Django</span></div></pre></td></tr></table></figure>
-<p>当 Django 开始运行，就可以使用 <code>functional_tests.py</code> 进行测试了</p>
-<h2 id="创建-Git-仓库"><a href="#创建-Git-仓库" class="headerlink" title="创建 Git 仓库"></a>创建 Git 仓库</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">$ <span class="built_in">cd</span> &lt;项目目录&gt;</div><div class="line">$ git init .</div><div class="line">$ <span class="built_in">echo</span> <span class="string">"db.sqlite3"</span> &gt;&gt; .gitignore  <span class="comment"># 提交忽略的文件</span></div><div class="line">$ <span class="built_in">echo</span> <span class="string">"__pycache__"</span> &gt;&gt; .gitignore</div><div class="line">$ <span class="built_in">echo</span> <span class="string">"*.pyc"</span> &gt;&gt; .gitignore</div><div class="line">$ git add .</div><div class="line">$ git status</div></pre></td></tr></table></figure>
-<p>如果发现有不想提交的文件使用 <code>git rm</code> 命令删掉，然后 提交：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git commit</div></pre></td></tr></table></figure></p>
-
+          
+              学习笔记一篇。使用 python 做 web 开发， python web 测试基础学习。
+          
       
     </div>
+    
     <div class="article-info article-info-index">
       
-      <a href="/2016/08/24/python-web-学习——测试安装-Django/" class="archive-article-date">
-  	<time datetime="2016-08-24T07:10:12.000Z" itemprop="datePublished"><i class="icon-clock"></i>2016-08-24</time>
-</a>
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags"></i>
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/django/">django</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/python/">python</a></li></ul>
-	</div>
-
       
 
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/django/">django</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/python/">python</a></li></ul>
+    </div>
+
+      
+        <p class="article-more-link">
+          <a href="/2016/08/24/python-web-学习——测试安装-Django/#more">more >></a>
+        </p>
+      
       <div class="clearfix"></div>
     </div>
+    
   </div>
+  
 </article>
-
 
 
 
@@ -641,6 +776,15 @@
 
   
     <article id="post-python-web-学习——环境" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/08/24/python-web-学习——环境/" class="article-date">
+      <time datetime="2016-08-24T03:52:37.000Z" itemprop="datePublished">2016-08-24</time>
+</a>
+
+
+    </div>
+  
   <div class="article-inner">
     
       <input type="hidden" class="isFancy" />
@@ -655,35 +799,36 @@
   
 
       </header>
+      
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>[学习笔记] 使用 python 做 web 开发， 需要安装一些基本的软件。当然首先是 python，还有 Firefox 浏览器、 Git 等。</p>
-<h2 id="需要安装的软件"><a href="#需要安装的软件" class="headerlink" title="需要安装的软件"></a>需要安装的软件</h2><h3 id="Firefox-Web-浏览器"><a href="#Firefox-Web-浏览器" class="headerlink" title="Firefox Web 浏览器"></a>Firefox Web 浏览器</h3><p>这个不用多介绍了。 <a href="https://www.mozilla.org/en-US/firefox/organizations/all/" target="_blank" rel="external">Firefox ESR 版本下载地址</a></p>
-<h3 id="Git-版本控制"><a href="#Git-版本控制" class="headerlink" title="Git 版本控制"></a>Git 版本控制</h3><p><a href="http://git-scm.com" target="_blank" rel="external">Git 官网</a></p>
-<h3 id="Python-包管理工具-pip"><a href="#Python-包管理工具-pip" class="headerlink" title="Python 包管理工具 pip"></a>Python 包管理工具 pip</h3><h2 id="需要安装的-Python-模块"><a href="#需要安装的-Python-模块" class="headerlink" title="需要安装的 Python 模块"></a>需要安装的 Python 模块</h2><h3 id="Django"><a href="#Django" class="headerlink" title="Django"></a>Django</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">pip3 install django</div></pre></td></tr></table></figure>
-<h3 id="Selenium"><a href="#Selenium" class="headerlink" title="Selenium"></a>Selenium</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">pip3 install --upgrad selenium</div></pre></td></tr></table></figure>
-
+          
+              学习笔记一篇。使用 python 做 web 开发， 需要安装一些基本的软件。当然首先是 python，还有 Firefox 浏览器、 Git 等。
+          
       
     </div>
+    
     <div class="article-info article-info-index">
       
-      <a href="/2016/08/24/python-web-学习——环境/" class="archive-article-date">
-  	<time datetime="2016-08-24T03:52:37.000Z" itemprop="datePublished"><i class="icon-clock"></i>2016-08-24</time>
-</a>
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags"></i>
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/django/">django</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/python/">python</a></li></ul>
-	</div>
-
       
 
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/django/">django</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/python/">python</a></li></ul>
+    </div>
+
+      
+        <p class="article-more-link">
+          <a href="/2016/08/24/python-web-学习——环境/#more">more >></a>
+        </p>
+      
       <div class="clearfix"></div>
     </div>
+    
   </div>
+  
 </article>
-
 
 
 
@@ -695,6 +840,15 @@
 
   
     <article id="post-babun-配置备忘" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/08/24/babun-配置备忘/" class="article-date">
+      <time datetime="2016-08-24T02:02:35.000Z" itemprop="datePublished">2016-08-24</time>
+</a>
+
+
+    </div>
+  
   <div class="article-inner">
     
       <input type="hidden" class="isFancy" />
@@ -709,52 +863,36 @@
   
 
       </header>
+      
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>　　babun 是一个把 cygwin、 zsh、 oh-my-zsh 等打包在一起，可以自动升级维护的、可以运行在 windows 上的 linux 命令行工具。</p>
-<h2 id="问题备忘"><a href="#问题备忘" class="headerlink" title="问题备忘"></a>问题备忘</h2><h3 id="windows-命令乱码"><a href="#windows-命令乱码" class="headerlink" title="windows 命令乱码"></a>windows 命令乱码</h3><p>例如 ipconfig 命令乱码，可以设置别名，并添加参数<br><code>Add | iconv -f GBK -t UTF8 after the CMD command.</code><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">alias</span> ifconfig=<span class="string">'ipconfig | iconv -f GBK -t UTF8'</span></div></pre></td></tr></table></figure></p>
-<h3 id="没有-telnet-命令"><a href="#没有-telnet-命令" class="headerlink" title="没有 telnet 命令"></a>没有 telnet 命令</h3><p>直接寻找 telnet 找不到，需要这个包 inetutils：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">pact install inetutils</div></pre></td></tr></table></figure></p>
-<h3 id="启动出现-dll-错误"><a href="#启动出现-dll-错误" class="headerlink" title="启动出现 dll 错误"></a>启动出现 dll 错误</h3><p>这个实际上是 Cygwin 的问题</p>
-<ol>
-<li>先把所有 <code>babun</code> 窗口都关闭，不行就重启</li>
-<li>进入 <code>babun</code> 的 <code>cygwin/bin</code> 目录</li>
-<li>以管理员身份运行 <code>ash.exe</code></li>
-<li>在 <code>ash.exe</code> 的窗口中运行 <code>/usr/bin/rebaseall -v</code>， 然后退出</li>
-<li>再次运行 <code>babun</code>, 完成修复</li>
-</ol>
-<h2 id="定制备忘"><a href="#定制备忘" class="headerlink" title="定制备忘"></a>定制备忘</h2><h3 id="喜欢的插件"><a href="#喜欢的插件" class="headerlink" title="喜欢的插件"></a>喜欢的插件</h3><p>zsh-syntax-highlighting</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> ~/.oh-my-zsh/custom/plugins</div><div class="line">git <span class="built_in">clone</span> git://github.com/zsh-users/zsh-syntax-highlighting.git</div><div class="line">plugins=( [plugins...] zsh-syntax-highlighting)</div><div class="line"><span class="built_in">source</span> ~/.zshrc or src</div></pre></td></tr></table></figure>
-<h3 id="将-Babun-加入到-ConEmu"><a href="#将-Babun-加入到-ConEmu" class="headerlink" title="将 Babun 加入到 ConEmu"></a>将 Babun 加入到 ConEmu</h3><p><a href="https://conemu.github.io/" target="_blank" rel="external">ConEmu</a> 是一个 Windows 控制台仿真器，可以集成多个控制台并定制GUI窗口。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">Settings&gt;Startup&gt;Tasks</div><div class="line">Create a new task</div><div class="line">Task parameters /icon &quot;%userprofile%\.babun\cygwin\bin\mintty.exe&quot; /dir &quot;%userprofile%&quot;</div><div class="line">Commands %userprofile%\.babun\cygwin\bin\mintty.exe /bin/env CHERE_INVOKING=1 /bin/zsh.exe</div></pre></td></tr></table></figure>
-<img src="/2016/08/24/babun-配置备忘/babun_ConEmu.png" alt="在 ConEmu 中配置 babun" title="在 ConEmu 中配置 babun">
-<h3 id="Windows-资源管理器上下文菜单集成管理"><a href="#Windows-资源管理器上下文菜单集成管理" class="headerlink" title="Windows 资源管理器上下文菜单集成管理"></a>Windows 资源管理器上下文菜单集成管理</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">babun shell-here init  <span class="comment"># 集成</span></div><div class="line">babun shell-here remove  <span class="comment"># 卸载</span></div></pre></td></tr></table></figure>
-<h3 id="启动时的检查"><a href="#启动时的检查" class="headerlink" title="启动时的检查"></a>启动时的检查</h3><p>有时比较耗时间，你可以关闭，打开 <code>.babunrc</code> 文件<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># Uncomment this to disable daily auto-update &amp; proxy checks on startup (not recommended!)</span></div><div class="line"><span class="built_in">export</span> DISABLE_CHECK_ON_STARTUP=<span class="string">"true"</span>  <span class="comment"># 去除行首的注释符号即可</span></div></pre></td></tr></table></figure></p>
-<p>然后你可以手动执行检查 <code>babun check</code> 和更新 <code>babun update</code></p>
-<h3 id="安装-Python3"><a href="#安装-Python3" class="headerlink" title="安装 Python3"></a>安装 Python3</h3><p>当前 babun 自带为 python2.x 可以安装 python3<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">pact install python3</div></pre></td></tr></table></figure></p>
-<p>安装 pip<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">wget https://bootstrap.pypa.io/get-pip.py -O - | python3</div></pre></td></tr></table></figure></p>
-<p>安装 django<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">pip3 install django</div></pre></td></tr></table></figure></p>
-
+          
+              babun 是一个把 cygwin、 zsh、 oh-my-zsh 等打包在一起，可以自动升级维护的、可以运行在 windows 上的 linux 命令行工具。
+          
       
     </div>
+    
     <div class="article-info article-info-index">
       
-      <a href="/2016/08/24/babun-配置备忘/" class="archive-article-date">
-  	<time datetime="2016-08-24T02:02:35.000Z" itemprop="datePublished"><i class="icon-clock"></i>2016-08-24</time>
-</a>
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags"></i>
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/工具/">工具</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/效率/">效率</a></li></ul>
-	</div>
-
       
 
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/工具/">工具</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/效率/">效率</a></li></ul>
+    </div>
+
+      
+        <p class="article-more-link">
+          <a href="/2016/08/24/babun-配置备忘/#more">more >></a>
+        </p>
+      
       <div class="clearfix"></div>
     </div>
+    
   </div>
+  
 </article>
-
 
 
 
@@ -770,169 +908,113 @@
       <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/">Next &raquo;</a>
     </nav>
   
-
-
-      </div>
+</div>
       <footer id="footer">
-  <div class="outer">
-    <div id="footer-info">
-    	<div class="footer-left">
-    		&copy; 2016 猫看天
-    	</div>
-      	<div class="footer-right">
-      		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
-      	</div>
+    <div class="outer">
+        <div id="footer-info">
+            <div class="footer-left">
+                <i class="fa fa-copyright"></i> 
+                2016 猫看天
+            </div>
+            <div class="footer-right">
+                <a href="http://hexo.io/" target="_blank" title="快速、简洁且高效的博客框架">Hexo</a>  Theme <a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank" title="简而不减 Hexo 双栏博客主题  v3.5">Yelee</a> by MOxFIVE <i class="fa fa-heart animated infinite pulse"></i>
+            </div>
+        </div>
+        
+            <div class="visit">
+                
+                    <span id="busuanzi_container_site_pv" style='display:none'>
+                        <span id="site-visit" title="本站到访数"><i class="fa fa-user" aria-hidden="true"></i><span id="busuanzi_value_site_uv"></span>
+                        </span>
+                    </span>
+                
+                
+                    <span>| </span>
+                
+                
+                    <span id="busuanzi_container_page_pv" style='display:none'>
+                        <span id="page-visit"  title="本页阅读量"><i class="fa fa-eye animated infinite pulse" aria-hidden="true"></i><span id="busuanzi_value_page_pv"></span>
+                        </span>
+                    </span>
+                
+            </div>
+        
     </div>
-  </div>
 </footer>
     </div>
+    
+<script data-main="/js/main.js" src="//cdn.bootcss.com/require.js/2.2.0/require.min.js"></script>
+
     <script>
-	var yiliaConfig = {
-		fancybox: true,
-		mathjax: false,
-		animate: true,
-		isHome: true,
-		isPost: false,
-		isArchive: false,
-		isTag: false,
-		isCategory: false,
-		open_in_new: false,
-		root: "/",
-		innerArchive: true
-	}
+        $(document).ready(function() {
+            var iPad = window.navigator.userAgent.indexOf('iPad');
+            if (iPad > -1 || $(".left-col").css("display") === "none") {
+                var bgColorList = ["#9db3f4", "#414141", "#e5a859", "#f5dfc6", "#c084a0", "#847e72", "#cd8390", "#996731"];
+                var bgColor = Math.ceil(Math.random() * (bgColorList.length - 1));
+                $("body").css({"background-color": bgColorList[bgColor], "background-size": "cover"});
+            }
+            else {
+                var backgroundnum = :5;
+                var backgroundimg = "url(/background/bg-x.jpg)".replace(/x/gi, Math.ceil(Math.random() * backgroundnum));
+                $("body").css({"background": backgroundimg, "background-attachment": "fixed", "background-size": "cover"});
+            }
+        })
+    </script>
+
+
+
+
+
+    <script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
 </script>
 
-<script src="/./main.js"></script>
+<script src="//cdn.bootcss.com/mathjax/2.6.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 
 
-    
-<div class="tools-col">
-  <ul class="btn-wrap">
-    
-      <li class="chose" data-hook="tools-section-all"><span class="text">全部</span><i class="icon-book"></i></li>
-    
-    
-      <li data-hook="tools-section-tag"><span class="text">标签</span><i class="icon-price-tags"></i></li>
-    
-    
-      <li data-hook="tools-section-friends"><span class="text">友链</span><i class="icon-link"></i></li>
-    
-    
-      <li data-hook="tools-section-me"><span class="text">我</span><i class="icon-smile"></i></li>
-    
-  </ul>
-  <div class="tools-wrap">
-    
-    	<section class="tools-section tools-section-all chose">
-    	</section>
-    
-
-    
-    	<section class="tools-section tools-section-tag">
-    			<div class="widget tagcloud" id="js-tagcloud">
-    				<a href="/tags/apache2/" style="font-size: 10px;">apache2</a> <a href="/tags/django/" style="font-size: 16.67px;">django</a> <a href="/tags/mariadb/" style="font-size: 10px;">mariadb</a> <a href="/tags/php/" style="font-size: 10px;">php</a> <a href="/tags/phpMyAdmin/" style="font-size: 10px;">phpMyAdmin</a> <a href="/tags/python/" style="font-size: 16.67px;">python</a> <a href="/tags/ubuntu/" style="font-size: 20px;">ubuntu</a> <a href="/tags/办公/" style="font-size: 10px;">办公</a> <a href="/tags/工具/" style="font-size: 10px;">工具</a> <a href="/tags/效率/" style="font-size: 13.33px;">效率</a> <a href="/tags/资源/" style="font-size: 10px;">资源</a> <a href="/tags/运维/" style="font-size: 10px;">运维</a>
-    			</div>
-    	</section>
-    
-
-    
-    	<section class="tools-section tools-section-friends">
-  		
-  			<div class="friends-wrap" id="js-friends">
-  			
-  	          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">友情链接1</a>
-  	        
-  	          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">友情链接2</a>
-  	        
-  	          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">友情链接3</a>
-  	        
-  	          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">友情链接4</a>
-  	        
-  	          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">友情链接5</a>
-  	        
-  	          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">友情链接6</a>
-  	        
-  	        </div>
-  		
-    	</section>
-    
-
-    
-    	<section class="tools-section tools-section-me">
-  	  	
-  	  		<div class="aboutme-wrap" id="js-aboutme">很惭愧&lt;br&gt;&lt;br&gt;只做了一点微小的工作&lt;br&gt;谢谢大家</div>
-  	  	
-    	</section>
-    
-  </div>
-  
+<div class="scroll" id="scroll">
+    <a href="#" title="返回顶部"><i class="fa fa-arrow-up"></i></a>
+    <a href="#comments" onclick="load$hide();" title="查看评论"><i class="fa fa-comments-o"></i></a>
+    <a href="#footer" title="转到底部"><i class="fa fa-arrow-down"></i></a>
 </div>
-    <!-- Root element of PhotoSwipe. Must have class pswp. -->
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+<script>
+    // Open in New Window
+    
+        var oOpenInNew = {
+            
+            
+            
+            
+            
+            
+             archives: ".archive-article-title", 
+             miniArchives: "a.post-list-link", 
+            
+             friends: "#js-friends a", 
+             socail: ".social a" 
+        }
+        for (var x in oOpenInNew) {
+            $(oOpenInNew[x]).attr("target", "_blank");
+        }
+    
+</script>
 
-    <!-- Background of PhotoSwipe. 
-         It's a separate element as animating opacity is faster than rgba(). -->
-    <div class="pswp__bg"></div>
-
-    <!-- Slides wrapper with overflow:hidden. -->
-    <div class="pswp__scroll-wrap">
-
-        <!-- Container that holds slides. 
-            PhotoSwipe keeps only 3 of them in the DOM to save memory.
-            Don't modify these 3 pswp__item elements, data is added later on. -->
-        <div class="pswp__container">
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-        </div>
-
-        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-        <div class="pswp__ui pswp__ui--hidden">
-
-            <div class="pswp__top-bar">
-
-                <!--  Controls are self-explanatory. Order can be changed. -->
-
-                <div class="pswp__counter"></div>
-
-                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-
-                <button class="pswp__button pswp__button--share" style="display:none" title="Share"></button>
-
-                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-
-                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-
-                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
-                <!-- element will get class pswp__preloader--active when preloader is running -->
-                <div class="pswp__preloader">
-                    <div class="pswp__preloader__icn">
-                      <div class="pswp__preloader__cut">
-                        <div class="pswp__preloader__donut"></div>
-                      </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                <div class="pswp__share-tooltip"></div> 
-            </div>
-
-            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-            </button>
-
-            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-            </button>
-
-            <div class="pswp__caption">
-                <div class="pswp__caption__center"></div>
-            </div>
-
-        </div>
-
-    </div>
-
-</div>
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
   </div>
 </body>
 </html>
