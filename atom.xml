@@ -4,9 +4,9 @@
   <subtitle>猫看天的写写记记</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://blog.lilei360.cn/"/>
+  <link href="http://blogs.lilei360.cn/"/>
   <updated>2016-10-10T15:41:34.038Z</updated>
-  <id>http://blog.lilei360.cn/</id>
+  <id>http://blogs.lilei360.cn/</id>
   
   <author>
     <name>猫看天</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>Ubuntu server 14.04 用户管理</title>
-    <link href="http://blog.lilei360.cn/2016/10/10/Ubuntu-server-14-04-%E7%94%A8%E6%88%B7%E7%AE%A1%E7%90%86/"/>
-    <id>http://blog.lilei360.cn/2016/10/10/Ubuntu-server-14-04-用户管理/</id>
+    <link href="http://blogs.lilei360.cn/2016/10/10/Ubuntu-server-14-04-%E7%94%A8%E6%88%B7%E7%AE%A1%E7%90%86/"/>
+    <id>http://blogs.lilei360.cn/2016/10/10/Ubuntu-server-14-04-用户管理/</id>
     <published>2016-10-09T15:20:38.000Z</published>
     <updated>2016-10-10T15:41:34.038Z</updated>
     
@@ -50,14 +50,14 @@
     </summary>
     
     
-      <category term="ubuntu" scheme="http://blog.lilei360.cn/tags/ubuntu/"/>
+      <category term="ubuntu" scheme="http://blogs.lilei360.cn/tags/ubuntu/"/>
     
   </entry>
   
   <entry>
     <title>运维常用资源备忘与更新</title>
-    <link href="http://blog.lilei360.cn/2016/09/22/%E8%BF%90%E7%BB%B4%E5%B8%B8%E7%94%A8%E8%B5%84%E6%BA%90%E5%A4%87%E5%BF%98%E4%B8%8E%E6%9B%B4%E6%96%B0/"/>
-    <id>http://blog.lilei360.cn/2016/09/22/运维常用资源备忘与更新/</id>
+    <link href="http://blogs.lilei360.cn/2016/09/22/%E8%BF%90%E7%BB%B4%E5%B8%B8%E7%94%A8%E8%B5%84%E6%BA%90%E5%A4%87%E5%BF%98%E4%B8%8E%E6%9B%B4%E6%96%B0/"/>
+    <id>http://blogs.lilei360.cn/2016/09/22/运维常用资源备忘与更新/</id>
     <published>2016-09-22T09:33:47.000Z</published>
     <updated>2016-09-22T09:37:37.525Z</updated>
     
@@ -73,16 +73,16 @@
     </summary>
     
     
-      <category term="运维" scheme="http://blog.lilei360.cn/tags/%E8%BF%90%E7%BB%B4/"/>
+      <category term="运维" scheme="http://blogs.lilei360.cn/tags/%E8%BF%90%E7%BB%B4/"/>
     
-      <category term="资源" scheme="http://blog.lilei360.cn/tags/%E8%B5%84%E6%BA%90/"/>
+      <category term="资源" scheme="http://blogs.lilei360.cn/tags/%E8%B5%84%E6%BA%90/"/>
     
   </entry>
   
   <entry>
     <title>Ubuntu server 14.04 为 MariaDB 或 MySQL 安装配置 phpMyAdmin</title>
-    <link href="http://blog.lilei360.cn/2016/09/21/Ubuntu-server-14-04-%E4%B8%BA-MariaDB-%E6%88%96-MySQL-%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE-phpMyAdmin/"/>
-    <id>http://blog.lilei360.cn/2016/09/21/Ubuntu-server-14-04-为-MariaDB-或-MySQL-安装配置-phpMyAdmin/</id>
+    <link href="http://blogs.lilei360.cn/2016/09/21/Ubuntu-server-14-04-%E4%B8%BA-MariaDB-%E6%88%96-MySQL-%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE-phpMyAdmin/"/>
+    <id>http://blogs.lilei360.cn/2016/09/21/Ubuntu-server-14-04-为-MariaDB-或-MySQL-安装配置-phpMyAdmin/</id>
     <published>2016-09-21T13:54:41.000Z</published>
     <updated>2016-10-07T04:23:32.711Z</updated>
     
@@ -106,16 +106,16 @@
     </summary>
     
     
-      <category term="ubuntu" scheme="http://blog.lilei360.cn/tags/ubuntu/"/>
+      <category term="ubuntu" scheme="http://blogs.lilei360.cn/tags/ubuntu/"/>
     
-      <category term="phpMyAdmin" scheme="http://blog.lilei360.cn/tags/phpMyAdmin/"/>
+      <category term="phpMyAdmin" scheme="http://blogs.lilei360.cn/tags/phpMyAdmin/"/>
     
   </entry>
   
   <entry>
     <title>Ubuntu server 14.04 安装 MariaDB</title>
-    <link href="http://blog.lilei360.cn/2016/09/20/Ubuntu-server-14-04-%E5%AE%89%E8%A3%85-MariaDB/"/>
-    <id>http://blog.lilei360.cn/2016/09/20/Ubuntu-server-14-04-安装-MariaDB/</id>
+    <link href="http://blogs.lilei360.cn/2016/09/20/Ubuntu-server-14-04-%E5%AE%89%E8%A3%85-MariaDB/"/>
+    <id>http://blogs.lilei360.cn/2016/09/20/Ubuntu-server-14-04-安装-MariaDB/</id>
     <published>2016-09-19T15:09:02.000Z</published>
     <updated>2016-09-20T10:41:22.380Z</updated>
     
@@ -146,16 +146,16 @@
     </summary>
     
     
-      <category term="ubuntu" scheme="http://blog.lilei360.cn/tags/ubuntu/"/>
+      <category term="ubuntu" scheme="http://blogs.lilei360.cn/tags/ubuntu/"/>
     
-      <category term="mariadb" scheme="http://blog.lilei360.cn/tags/mariadb/"/>
+      <category term="mariadb" scheme="http://blogs.lilei360.cn/tags/mariadb/"/>
     
   </entry>
   
   <entry>
     <title>Ubuntu server 14.04 配置 PHP5</title>
-    <link href="http://blog.lilei360.cn/2016/09/16/Ubuntu-server-1404-%E9%85%8D%E7%BD%AE-PHP5/"/>
-    <id>http://blog.lilei360.cn/2016/09/16/Ubuntu-server-1404-配置-PHP5/</id>
+    <link href="http://blogs.lilei360.cn/2016/09/16/Ubuntu-server-1404-%E9%85%8D%E7%BD%AE-PHP5/"/>
+    <id>http://blogs.lilei360.cn/2016/09/16/Ubuntu-server-1404-配置-PHP5/</id>
     <published>2016-09-16T04:12:02.000Z</published>
     <updated>2016-09-20T10:41:24.483Z</updated>
     
@@ -177,16 +177,16 @@
     </summary>
     
     
-      <category term="ubuntu" scheme="http://blog.lilei360.cn/tags/ubuntu/"/>
+      <category term="ubuntu" scheme="http://blogs.lilei360.cn/tags/ubuntu/"/>
     
-      <category term="php" scheme="http://blog.lilei360.cn/tags/php/"/>
+      <category term="php" scheme="http://blogs.lilei360.cn/tags/php/"/>
     
   </entry>
   
   <entry>
     <title>Ubuntu server 14.04 安装 Apache2</title>
-    <link href="http://blog.lilei360.cn/2016/09/14/Ubuntu-server-14-04-%E5%AE%89%E8%A3%85-Apache2/"/>
-    <id>http://blog.lilei360.cn/2016/09/14/Ubuntu-server-14-04-安装-Apache2/</id>
+    <link href="http://blogs.lilei360.cn/2016/09/14/Ubuntu-server-14-04-%E5%AE%89%E8%A3%85-Apache2/"/>
+    <id>http://blogs.lilei360.cn/2016/09/14/Ubuntu-server-14-04-安装-Apache2/</id>
     <published>2016-09-14T03:54:37.000Z</published>
     <updated>2016-09-20T10:41:19.107Z</updated>
     
@@ -213,16 +213,16 @@
     </summary>
     
     
-      <category term="ubuntu" scheme="http://blog.lilei360.cn/tags/ubuntu/"/>
+      <category term="ubuntu" scheme="http://blogs.lilei360.cn/tags/ubuntu/"/>
     
-      <category term="apache2" scheme="http://blog.lilei360.cn/tags/apache2/"/>
+      <category term="apache2" scheme="http://blogs.lilei360.cn/tags/apache2/"/>
     
   </entry>
   
   <entry>
     <title>python-web-学习-Django的单元测试</title>
-    <link href="http://blog.lilei360.cn/2016/09/06/python-web-%E5%AD%A6%E4%B9%A0-Django%E7%9A%84%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95/"/>
-    <id>http://blog.lilei360.cn/2016/09/06/python-web-学习-Django的单元测试/</id>
+    <link href="http://blogs.lilei360.cn/2016/09/06/python-web-%E5%AD%A6%E4%B9%A0-Django%E7%9A%84%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95/"/>
+    <id>http://blogs.lilei360.cn/2016/09/06/python-web-学习-Django的单元测试/</id>
     <published>2016-09-06T08:54:31.000Z</published>
     <updated>2016-09-06T09:53:27.749Z</updated>
     
@@ -251,16 +251,16 @@
     </summary>
     
     
-      <category term="python" scheme="http://blog.lilei360.cn/tags/python/"/>
+      <category term="python" scheme="http://blogs.lilei360.cn/tags/python/"/>
     
-      <category term="django" scheme="http://blog.lilei360.cn/tags/django/"/>
+      <category term="django" scheme="http://blogs.lilei360.cn/tags/django/"/>
     
   </entry>
   
   <entry>
     <title>python web 学习——测试安装 Django</title>
-    <link href="http://blog.lilei360.cn/2016/08/24/python-web-%E5%AD%A6%E4%B9%A0%E2%80%94%E2%80%94%E6%B5%8B%E8%AF%95%E5%AE%89%E8%A3%85-Django/"/>
-    <id>http://blog.lilei360.cn/2016/08/24/python-web-学习——测试安装-Django/</id>
+    <link href="http://blogs.lilei360.cn/2016/08/24/python-web-%E5%AD%A6%E4%B9%A0%E2%80%94%E2%80%94%E6%B5%8B%E8%AF%95%E5%AE%89%E8%A3%85-Django/"/>
+    <id>http://blogs.lilei360.cn/2016/08/24/python-web-学习——测试安装-Django/</id>
     <published>2016-08-24T07:10:12.000Z</published>
     <updated>2016-09-06T09:43:43.087Z</updated>
     
@@ -290,16 +290,16 @@
     </summary>
     
     
-      <category term="python" scheme="http://blog.lilei360.cn/tags/python/"/>
+      <category term="python" scheme="http://blogs.lilei360.cn/tags/python/"/>
     
-      <category term="django" scheme="http://blog.lilei360.cn/tags/django/"/>
+      <category term="django" scheme="http://blogs.lilei360.cn/tags/django/"/>
     
   </entry>
   
   <entry>
     <title>python web 学习——环境</title>
-    <link href="http://blog.lilei360.cn/2016/08/24/python-web-%E5%AD%A6%E4%B9%A0%E2%80%94%E2%80%94%E7%8E%AF%E5%A2%83/"/>
-    <id>http://blog.lilei360.cn/2016/08/24/python-web-学习——环境/</id>
+    <link href="http://blogs.lilei360.cn/2016/08/24/python-web-%E5%AD%A6%E4%B9%A0%E2%80%94%E2%80%94%E7%8E%AF%E5%A2%83/"/>
+    <id>http://blogs.lilei360.cn/2016/08/24/python-web-学习——环境/</id>
     <published>2016-08-24T03:52:37.000Z</published>
     <updated>2016-08-26T02:26:03.691Z</updated>
     
@@ -317,16 +317,16 @@
     </summary>
     
     
-      <category term="python" scheme="http://blog.lilei360.cn/tags/python/"/>
+      <category term="python" scheme="http://blogs.lilei360.cn/tags/python/"/>
     
-      <category term="django" scheme="http://blog.lilei360.cn/tags/django/"/>
+      <category term="django" scheme="http://blogs.lilei360.cn/tags/django/"/>
     
   </entry>
   
   <entry>
     <title>babun 配置备忘</title>
-    <link href="http://blog.lilei360.cn/2016/08/24/babun-%E9%85%8D%E7%BD%AE%E5%A4%87%E5%BF%98/"/>
-    <id>http://blog.lilei360.cn/2016/08/24/babun-配置备忘/</id>
+    <link href="http://blogs.lilei360.cn/2016/08/24/babun-%E9%85%8D%E7%BD%AE%E5%A4%87%E5%BF%98/"/>
+    <id>http://blogs.lilei360.cn/2016/08/24/babun-配置备忘/</id>
     <published>2016-08-24T02:02:35.000Z</published>
     <updated>2016-10-02T13:18:37.433Z</updated>
     
@@ -361,16 +361,16 @@
     </summary>
     
     
-      <category term="效率" scheme="http://blog.lilei360.cn/tags/%E6%95%88%E7%8E%87/"/>
+      <category term="效率" scheme="http://blogs.lilei360.cn/tags/%E6%95%88%E7%8E%87/"/>
     
-      <category term="工具" scheme="http://blog.lilei360.cn/tags/%E5%B7%A5%E5%85%B7/"/>
+      <category term="工具" scheme="http://blogs.lilei360.cn/tags/%E5%B7%A5%E5%85%B7/"/>
     
   </entry>
   
   <entry>
     <title>如何禁用 Outlook 日历的通知邮件</title>
-    <link href="http://blog.lilei360.cn/2016/08/23/%E5%A6%82%E4%BD%95%E7%A6%81%E7%94%A8-Outlook-%E6%97%A5%E5%8E%86%E7%9A%84%E9%80%9A%E7%9F%A5%E9%82%AE%E4%BB%B6/"/>
-    <id>http://blog.lilei360.cn/2016/08/23/如何禁用-Outlook-日历的通知邮件/</id>
+    <link href="http://blogs.lilei360.cn/2016/08/23/%E5%A6%82%E4%BD%95%E7%A6%81%E7%94%A8-Outlook-%E6%97%A5%E5%8E%86%E7%9A%84%E9%80%9A%E7%9F%A5%E9%82%AE%E4%BB%B6/"/>
+    <id>http://blogs.lilei360.cn/2016/08/23/如何禁用-Outlook-日历的通知邮件/</id>
     <published>2016-08-23T07:45:28.000Z</published>
     <updated>2016-08-24T01:09:40.044Z</updated>
     
@@ -393,16 +393,16 @@
     </summary>
     
     
-      <category term="效率" scheme="http://blog.lilei360.cn/tags/%E6%95%88%E7%8E%87/"/>
+      <category term="效率" scheme="http://blogs.lilei360.cn/tags/%E6%95%88%E7%8E%87/"/>
     
-      <category term="办公" scheme="http://blog.lilei360.cn/tags/%E5%8A%9E%E5%85%AC/"/>
+      <category term="办公" scheme="http://blogs.lilei360.cn/tags/%E5%8A%9E%E5%85%AC/"/>
     
   </entry>
   
   <entry>
     <title>Hexo 的 Hello World ！</title>
-    <link href="http://blog.lilei360.cn/2016/08/23/hello-world/"/>
-    <id>http://blog.lilei360.cn/2016/08/23/hello-world/</id>
+    <link href="http://blogs.lilei360.cn/2016/08/23/hello-world/"/>
+    <id>http://blogs.lilei360.cn/2016/08/23/hello-world/</id>
     <published>2016-08-23T05:42:02.675Z</published>
     <updated>2016-09-02T01:17:26.680Z</updated>
     
