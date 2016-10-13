@@ -2,23 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://blogs.lilei360.cn/2016/10/12/Ubuntu-server-14-04-%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE/</loc>
+    <loc>http://blogs.lilei360.cn/2016/09/14/Ubuntu-server-14-04-%E5%AE%89%E8%A3%85-Apache2/</loc>
     
-    <lastmod>2016-10-12T16:12:32.206Z</lastmod>
+    <lastmod>2016-10-13T09:04:38.210Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://blogs.lilei360.cn/2016/10/10/Ubuntu-server-14-04-%E7%94%A8%E6%88%B7%E7%AE%A1%E7%90%86/</loc>
+    <loc>http://blogs.lilei360.cn/2016/09/20/Ubuntu-server-14-04-%E5%AE%89%E8%A3%85-MariaDB/</loc>
     
-    <lastmod>2016-10-10T15:41:34.038Z</lastmod>
+    <lastmod>2016-10-13T09:04:27.011Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://blogs.lilei360.cn/2016/09/21/Ubuntu-server-14-04-%E4%B8%BA-MariaDB-%E6%88%96-MySQL-%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE-phpMyAdmin/</loc>
     
-    <lastmod>2016-10-07T04:23:32.711Z</lastmod>
+    <lastmod>2016-10-13T09:03:20.270Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blogs.lilei360.cn/2016/10/12/Ubuntu-server-14-04-%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE/</loc>
+    
+    <lastmod>2016-10-13T09:03:01.032Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blogs.lilei360.cn/2016/09/16/Ubuntu-server-1404-%E9%85%8D%E7%BD%AE-PHP5/</loc>
+    
+    <lastmod>2016-10-13T09:02:39.512Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blogs.lilei360.cn/2016/10/10/Ubuntu-server-14-04-%E7%94%A8%E6%88%B7%E7%AE%A1%E7%90%86/</loc>
+    
+    <lastmod>2016-10-13T09:00:22.622Z</lastmod>
     
   </url>
   
@@ -33,27 +54,6 @@
     <loc>http://blogs.lilei360.cn/2016/09/22/%E8%BF%90%E7%BB%B4%E5%B8%B8%E7%94%A8%E8%B5%84%E6%BA%90%E5%A4%87%E5%BF%98%E4%B8%8E%E6%9B%B4%E6%96%B0/</loc>
     
     <lastmod>2016-09-22T09:37:37.525Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blogs.lilei360.cn/2016/09/16/Ubuntu-server-1404-%E9%85%8D%E7%BD%AE-PHP5/</loc>
-    
-    <lastmod>2016-09-20T10:41:24.483Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blogs.lilei360.cn/2016/09/20/Ubuntu-server-14-04-%E5%AE%89%E8%A3%85-MariaDB/</loc>
-    
-    <lastmod>2016-09-20T10:41:22.380Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blogs.lilei360.cn/2016/09/14/Ubuntu-server-14-04-%E5%AE%89%E8%A3%85-Apache2/</loc>
-    
-    <lastmod>2016-09-20T10:41:19.107Z</lastmod>
     
   </url>
   
