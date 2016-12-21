@@ -19,7 +19,7 @@
     <title>运维基础：网络慢的常见原因</title>
     <link href="http://blogs.lilei360.cn/2016/10/24/%E8%BF%90%E7%BB%B4%E5%9F%BA%E7%A1%80%EF%BC%9A%E7%BD%91%E7%BB%9C%E6%85%A2%E7%9A%84%E5%B8%B8%E8%A7%81%E5%8E%9F%E5%9B%A0/"/>
     <id>http://blogs.lilei360.cn/2016/10/24/运维基础：网络慢的常见原因/</id>
-    <published>2016-10-24T03:20:30.000Z</published>
+    <published>2016-10-24T04:20:30.000Z</published>
     <updated>2016-11-05T01:43:16.246Z</updated>
     
     <content type="html"><![CDATA[<ul>
@@ -49,7 +49,7 @@
     <title>Ubuntu server 14.04 网络配置</title>
     <link href="http://blogs.lilei360.cn/2016/10/12/Ubuntu-server-14-04-%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE/"/>
     <id>http://blogs.lilei360.cn/2016/10/12/Ubuntu-server-14-04-网络配置/</id>
-    <published>2016-10-12T03:50:36.000Z</published>
+    <published>2016-10-12T04:50:36.000Z</published>
     <updated>2016-10-13T09:03:01.032Z</updated>
     
     <content type="html"><![CDATA[<p>　　Ubuntu server 默认使用动态 IP (DHCP)， 如果作为服务器使用，应该配置为静态 IP 地址。这里介绍了如何进行网络配置，和添加网卡等服器上会遇到的一些情况。</p>
@@ -86,7 +86,7 @@
     <title>Ubuntu server 14.04 用户管理</title>
     <link href="http://blogs.lilei360.cn/2016/10/10/Ubuntu-server-14-04-%E7%94%A8%E6%88%B7%E7%AE%A1%E7%90%86/"/>
     <id>http://blogs.lilei360.cn/2016/10/10/Ubuntu-server-14-04-用户管理/</id>
-    <published>2016-10-09T15:20:38.000Z</published>
+    <published>2016-10-09T16:20:38.000Z</published>
     <updated>2016-10-13T09:00:22.622Z</updated>
     
     <content type="html"><![CDATA[<p>　　介绍 Ubuntu server 14.04 LTS 用户创建、root 用户启用， 配置 sudo 等。</p>
@@ -125,7 +125,7 @@
     <title>运维常用资源备忘与更新</title>
     <link href="http://blogs.lilei360.cn/2016/09/22/%E8%BF%90%E7%BB%B4%E5%B8%B8%E7%94%A8%E8%B5%84%E6%BA%90%E5%A4%87%E5%BF%98%E4%B8%8E%E6%9B%B4%E6%96%B0/"/>
     <id>http://blogs.lilei360.cn/2016/09/22/运维常用资源备忘与更新/</id>
-    <published>2016-09-22T09:33:47.000Z</published>
+    <published>2016-09-22T10:33:47.000Z</published>
     <updated>2016-09-22T09:37:37.525Z</updated>
     
     <content type="html"><![CDATA[<p>更新时间（201609）</p>
@@ -150,7 +150,7 @@
     <title>Ubuntu server 14.04 为 MariaDB 或 MySQL 安装配置 phpMyAdmin</title>
     <link href="http://blogs.lilei360.cn/2016/09/21/Ubuntu-server-14-04-%E4%B8%BA-MariaDB-%E6%88%96-MySQL-%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE-phpMyAdmin/"/>
     <id>http://blogs.lilei360.cn/2016/09/21/Ubuntu-server-14-04-为-MariaDB-或-MySQL-安装配置-phpMyAdmin/</id>
-    <published>2016-09-21T13:54:41.000Z</published>
+    <published>2016-09-21T14:54:41.000Z</published>
     <updated>2016-10-13T09:03:20.270Z</updated>
     
     <content type="html"><![CDATA[<p>phpMyAdmin 是一个 MySQL 的 web 客户端（兼容 MariaDB），这里介绍在 Ubuntu 中安装配置 phpMyAdmin 。</p>
@@ -183,7 +183,7 @@
     <title>Ubuntu server 14.04 安装 MariaDB</title>
     <link href="http://blogs.lilei360.cn/2016/09/20/Ubuntu-server-14-04-%E5%AE%89%E8%A3%85-MariaDB/"/>
     <id>http://blogs.lilei360.cn/2016/09/20/Ubuntu-server-14-04-安装-MariaDB/</id>
-    <published>2016-09-19T15:09:02.000Z</published>
+    <published>2016-09-19T16:09:02.000Z</published>
     <updated>2016-10-13T09:04:27.011Z</updated>
     
     <content type="html"><![CDATA[<h2 id="手动安装-MariaDB"><a href="#手动安装-MariaDB" class="headerlink" title="手动安装 MariaDB"></a>手动安装 MariaDB</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">liam@bogon:~$ sudo apt -y install mariadb-server-5.5</div></pre></td></tr></table></figure>
@@ -222,7 +222,7 @@
     <title>Ubuntu server 14.04 配置 PHP5</title>
     <link href="http://blogs.lilei360.cn/2016/09/16/Ubuntu-server-1404-%E9%85%8D%E7%BD%AE-PHP5/"/>
     <id>http://blogs.lilei360.cn/2016/09/16/Ubuntu-server-1404-配置-PHP5/</id>
-    <published>2016-09-16T04:12:02.000Z</published>
+    <published>2016-09-16T05:12:02.000Z</published>
     <updated>2016-10-13T09:02:39.512Z</updated>
     
     <content type="html"><![CDATA[<p>　　我们在安装 Ubuntu server 14.04 LTS 时已经选择了 LAMP server 。此时 Ubuntu 也已经安装了 PHP 如果安装 Ubuntu 的时候没有选择 LAMP ，这里我们可以手动安装。</p>
@@ -252,7 +252,7 @@
     <title>Ubuntu server 14.04 安装 Apache2</title>
     <link href="http://blogs.lilei360.cn/2016/09/14/Ubuntu-server-14-04-%E5%AE%89%E8%A3%85-Apache2/"/>
     <id>http://blogs.lilei360.cn/2016/09/14/Ubuntu-server-14-04-安装-Apache2/</id>
-    <published>2016-09-14T03:54:37.000Z</published>
+    <published>2016-09-14T04:54:37.000Z</published>
     <updated>2016-10-13T09:04:38.210Z</updated>
     
     <content type="html"><![CDATA[<p>　　我们在安装 Ubuntu server 14.04 LTS 时已经选择了 LAMP server 。此时 Ubuntu 就已经安装了 Apache2。 如果安装 Ubuntu 的时候没有选择 LAMP ，这里我们可以手动安装。</p>
@@ -287,7 +287,7 @@
     <title>python-web-学习-Django的单元测试</title>
     <link href="http://blogs.lilei360.cn/2016/09/06/python-web-%E5%AD%A6%E4%B9%A0-Django%E7%9A%84%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95/"/>
     <id>http://blogs.lilei360.cn/2016/09/06/python-web-学习-Django的单元测试/</id>
-    <published>2016-09-06T08:54:31.000Z</published>
+    <published>2016-09-06T09:54:31.000Z</published>
     <updated>2016-09-06T09:53:27.749Z</updated>
     
     <content type="html"><![CDATA[<p>[学习笔记] 使用 python 做 web 开发， Django 的单元测试。</p>
@@ -325,7 +325,7 @@
     <title>python web 学习——测试安装 Django</title>
     <link href="http://blogs.lilei360.cn/2016/08/24/python-web-%E5%AD%A6%E4%B9%A0%E2%80%94%E2%80%94%E6%B5%8B%E8%AF%95%E5%AE%89%E8%A3%85-Django/"/>
     <id>http://blogs.lilei360.cn/2016/08/24/python-web-学习——测试安装-Django/</id>
-    <published>2016-08-24T07:10:12.000Z</published>
+    <published>2016-08-24T08:10:12.000Z</published>
     <updated>2016-10-24T03:41:29.408Z</updated>
     
     <content type="html"><![CDATA[<p>[学习笔记] 使用 python 做 web 开发， python web 测试基础学习。</p>
@@ -371,7 +371,7 @@
     <title>python web 学习——环境</title>
     <link href="http://blogs.lilei360.cn/2016/08/24/python-web-%E5%AD%A6%E4%B9%A0%E2%80%94%E2%80%94%E7%8E%AF%E5%A2%83/"/>
     <id>http://blogs.lilei360.cn/2016/08/24/python-web-学习——环境/</id>
-    <published>2016-08-24T03:52:37.000Z</published>
+    <published>2016-08-24T04:52:37.000Z</published>
     <updated>2016-08-26T02:26:03.691Z</updated>
     
     <content type="html"><![CDATA[<p>[学习笔记] 使用 python 做 web 开发， 需要安装一些基本的软件。当然首先是 python，还有 Firefox 浏览器、 Git 等。</p>
@@ -398,7 +398,7 @@
     <title>babun 配置备忘</title>
     <link href="http://blogs.lilei360.cn/2016/08/24/babun-%E9%85%8D%E7%BD%AE%E5%A4%87%E5%BF%98/"/>
     <id>http://blogs.lilei360.cn/2016/08/24/babun-配置备忘/</id>
-    <published>2016-08-24T02:02:35.000Z</published>
+    <published>2016-08-24T03:02:35.000Z</published>
     <updated>2016-10-02T13:18:37.433Z</updated>
     
     <content type="html"><![CDATA[<p>　　babun 是一个把 cygwin、 zsh、 oh-my-zsh 等打包在一起，可以自动升级维护的、可以运行在 windows 上的 linux 命令行工具。</p>
@@ -442,7 +442,7 @@
     <title>如何禁用 Outlook 日历的通知邮件</title>
     <link href="http://blogs.lilei360.cn/2016/08/23/%E5%A6%82%E4%BD%95%E7%A6%81%E7%94%A8-Outlook-%E6%97%A5%E5%8E%86%E7%9A%84%E9%80%9A%E7%9F%A5%E9%82%AE%E4%BB%B6/"/>
     <id>http://blogs.lilei360.cn/2016/08/23/如何禁用-Outlook-日历的通知邮件/</id>
-    <published>2016-08-23T07:45:28.000Z</published>
+    <published>2016-08-23T08:45:28.000Z</published>
     <updated>2016-08-24T01:09:40.044Z</updated>
     
     <content type="html"><![CDATA[<p>我用 Outlook 日历撰写我的工作日志，这使我能够随时随地记录与查看信息。但是会造成非常多的电子邮件通知，这里介绍下怎么解决此问题。</p>
